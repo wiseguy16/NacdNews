@@ -8,10 +8,21 @@
 
 import UIKit
 
-class SecondTableViewController: UITableViewController {
+class SecondTableViewController: UITableViewController
+{
+    
+    var blogItems = [BlogItem]()
+    var myFormatter = NSDateFormatter()
+    
+    var imageCache = [String:UIImage]()
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        myFormatter.dateStyle = .ShortStyle
+        myFormatter.timeStyle = .NoStyle
+        loadBlogs()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -34,17 +45,67 @@ class SecondTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return blogItems.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("SecondCell", forIndexPath: indexPath) 
+        let cell = tableView.dequeueReusableCellWithIdentifier("SecondCell", forIndexPath: indexPath) as! SecondCell
 
         // Configure the cell...
+        
+        let aBlog = blogItems[indexPath.row]
+        var imageData: NSData
+        
+        cell.secondTitleLabel.text = aBlog.title
+        
+        let dateToShow = aBlog.entry_date
+        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
+        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
+        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
+        
+        cell.secondDescriptionLabel.text = formattedDate
+        
 
         return cell
     }
+    
+    func loadBlogs()
+    {
+        
+        
+        let filePath = NSBundle.mainBundle().pathForResource("nacdBlog2", ofType: "json")  //main.path(forResource: "nacdSample3", ofType: "json")
+        let dataFromFile2 = NSData(contentsOfFile: filePath!)                   //      (contentsOf: URL(fileURLWithPath: filePath!))
+        do
+        {
+            
+            let jsonData = try NSJSONSerialization.JSONObjectWithData(dataFromFile2!, options: [])    //jsonObject(with: dataFromFile2!, options: [])
+            
+            
+            
+            guard let jsonDict = jsonData as? [String: AnyObject],
+                let itemsArray = jsonDict["items"] as? [[String: AnyObject]]
+                //let itemsArray = items1["item"] as? [[String: Any]]
+                else
+            {
+                return
+            }
+            
+            for aBlogDict in itemsArray
+            {
+                let aBlogItem = BlogItem(myDictionary: aBlogDict)
+                blogItems.append(aBlogItem)
+            }
+            // var finalItems = [MediaItem]()
+        }
+        catch let error as NSError {
+            print(error)
+        }
+    }
+    
+
+    
+    
     
 
     /*

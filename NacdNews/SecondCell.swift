@@ -9,6 +9,19 @@
 import UIKit
 
 class SecondCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var secondTitleLabel: UILabel!
+    
+    @IBOutlet weak var secondDescriptionLabel: UILabel!
+    
+    @IBOutlet weak var secondMiscLabel: UILabel!
+    
+    @IBOutlet weak var secondImageView: UIImageView!
+    
+    
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -20,6 +20,8 @@
 		4AA675581D7634FC00BD1325 /* ThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675571D7634FC00BD1325 /* ThirdCell.swift */; };
 		4AA6755A1D7639BE00BD1325 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675591D7639BE00BD1325 /* MediaItem.swift */; };
 		4AA6755C1D763ED700BD1325 /* nacdSample3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6755B1D763ED700BD1325 /* nacdSample3.json */; };
+		4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */; };
+		4AA675601D76F51F00BD1325 /* BlogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6755F1D76F51F00BD1325 /* BlogItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		4AA675571D7634FC00BD1325 /* ThirdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCell.swift; sourceTree = "<group>"; };
 		4AA675591D7639BE00BD1325 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
 		4AA6755B1D763ED700BD1325 /* nacdSample3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nacdSample3.json; sourceTree = "<group>"; };
+		4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nacdBlog2.json; sourceTree = "<group>"; };
+		4AA6755F1D76F51F00BD1325 /* BlogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +76,12 @@
 			children = (
 				4AA675391D76344000BD1325 /* AppDelegate.swift */,
 				4AA6755B1D763ED700BD1325 /* nacdSample3.json */,
+				4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */,
 				4AA6754D1D76348400BD1325 /* FirstTableViewController.swift */,
 				4AA6754F1D76349800BD1325 /* SecondTableViewController.swift */,
 				4AA675511D7634B300BD1325 /* ThirdTableViewController.swift */,
 				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
+				4AA6755F1D76F51F00BD1325 /* BlogItem.swift */,
 				4AA675531D7634D100BD1325 /* FirstCell.swift */,
 				4AA675551D7634E600BD1325 /* SecondCell.swift */,
 				4AA675571D7634FC00BD1325 /* ThirdCell.swift */,
@@ -149,6 +155,7 @@
 				4AA675461D76344000BD1325 /* LaunchScreen.storyboard in Resources */,
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,
 				4AA675411D76344000BD1325 /* Main.storyboard in Resources */,
+				4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */,
 				4AA6755C1D763ED700BD1325 /* nacdSample3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA675601D76F51F00BD1325 /* BlogItem.swift in Sources */,
 				4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */,
 				4AA675501D76349800BD1325 /* SecondTableViewController.swift in Sources */,
 				4AA6755A1D7639BE00BD1325 /* MediaItem.swift in Sources */,
