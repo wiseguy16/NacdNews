@@ -41,11 +41,13 @@ class SecondTableViewController: UITableViewController
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
+//        return blogItems.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return blogItems.count
+//        return 2
     }
 
     
@@ -65,6 +67,18 @@ class SecondTableViewController: UITableViewController
         let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
         
         cell.secondDescriptionLabel.text = formattedDate
+        
+        if let firstURL = NSURL(string: aBlog.blog_primary) {
+            
+            
+            
+            // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
+            imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
+            cell.secondImageView.image = UIImage.init(data: imageData)
+        }
+
+        
+        
         
 
         return cell
@@ -104,7 +118,16 @@ class SecondTableViewController: UITableViewController
     }
     
 
-    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        //
+        let aBlog = blogItems[indexPath.row] 
+        
+        let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier("BlogDetailViewController") as! BlogDetailViewController
+        navigationController?.pushViewController(detailVC, animated: true)
+        detailVC.aBlogItem = aBlog
+        
+    }
     
     
 

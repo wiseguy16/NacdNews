@@ -80,7 +80,7 @@ class BlogItem
         //      media_youtube_id = myDictionary["media-youtube-id"] as! String
         //    media_vimeo_m3u8_id = myDictionary["media-vimeo-m3u8-id"] as! String
         
-         blog_primary = myDictionary["blog_primary"] as! String
+         blog_primary = myDictionary["blog-primary"] as! String
         
     }
  

@@ -22,6 +22,7 @@
 		4AA6755C1D763ED700BD1325 /* nacdSample3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6755B1D763ED700BD1325 /* nacdSample3.json */; };
 		4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */; };
 		4AA675601D76F51F00BD1325 /* BlogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6755F1D76F51F00BD1325 /* BlogItem.swift */; };
+		4AB156131D778F25004601E7 /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB156121D778F25004601E7 /* BlogDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		4AA6755B1D763ED700BD1325 /* nacdSample3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nacdSample3.json; sourceTree = "<group>"; };
 		4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nacdBlog2.json; sourceTree = "<group>"; };
 		4AA6755F1D76F51F00BD1325 /* BlogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogItem.swift; sourceTree = "<group>"; };
+		4AB156121D778F25004601E7 /* BlogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				4AA6755B1D763ED700BD1325 /* nacdSample3.json */,
 				4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */,
 				4AA6754D1D76348400BD1325 /* FirstTableViewController.swift */,
+				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
 				4AA6754F1D76349800BD1325 /* SecondTableViewController.swift */,
 				4AA675511D7634B300BD1325 /* ThirdTableViewController.swift */,
 				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
@@ -172,6 +175,7 @@
 				4AA675501D76349800BD1325 /* SecondTableViewController.swift in Sources */,
 				4AA6755A1D7639BE00BD1325 /* MediaItem.swift in Sources */,
 				4AA675561D7634E600BD1325 /* SecondCell.swift in Sources */,
+				4AB156131D778F25004601E7 /* BlogDetailViewController.swift in Sources */,
 				4AA675541D7634D100BD1325 /* FirstCell.swift in Sources */,
 				4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */,
 				4AA675581D7634FC00BD1325 /* ThirdCell.swift in Sources */,
@@ -328,6 +332,7 @@
 				4AA6754C1D76344000BD1325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
