@@ -144,6 +144,25 @@ class SecondCollectionViewController: UICollectionViewController
         }
     }
     
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+   
+        //
+        let aBlog = blogItems[indexPath.row] //as! BlogItem
+        print("\(aBlog.isExpanded)")
+        // aBlog.isExpanded = true ? false: true
+        aBlog.isExpanded = !aBlog.isExpanded
+        
+        if aBlog.isExpanded == false
+        {
+            let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier("BlogDetailViewController") as! BlogDetailViewController
+            navigationController?.pushViewController(detailVC, animated: true)
+            detailVC.aBlogItem = aBlog
+        }
+        
+    }
+
+    
 
 
     // MARK: UICollectionViewDelegate

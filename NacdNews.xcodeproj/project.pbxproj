@@ -14,6 +14,10 @@
 		4A10C7431D8321D1009BF9A6 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */; };
 		4A10C7451D8321E3009BF9A6 /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */; };
 		4A10C7471D8323B3009BF9A6 /* IMG_1824.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */; };
+		4A10C7491D833460009BF9A6 /* podcasts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C7481D833460009BF9A6 /* podcasts.json */; };
+		4A10C74B1D83393A009BF9A6 /* 09042016_Sermon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C74A1D83393A009BF9A6 /* 09042016_Sermon.mp3 */; };
+		4A10C74D1D833963009BF9A6 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C74C1D833963009BF9A6 /* Podcast.swift */; };
+		4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C74E1D8342C6009BF9A6 /* PlaceholderImage.png */; };
 		4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675391D76344000BD1325 /* AppDelegate.swift */; };
 		4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6753B1D76344000BD1325 /* FirstViewController.swift */; };
 		4AA675411D76344000BD1325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6753F1D76344000BD1325 /* Main.storyboard */; };
@@ -40,6 +44,10 @@
 		4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1824.PNG; sourceTree = "<group>"; };
+		4A10C7481D833460009BF9A6 /* podcasts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = podcasts.json; sourceTree = "<group>"; };
+		4A10C74A1D83393A009BF9A6 /* 09042016_Sermon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 09042016_Sermon.mp3; sourceTree = "<group>"; };
+		4A10C74C1D833963009BF9A6 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		4A10C74E1D8342C6009BF9A6 /* PlaceholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderImage.png; sourceTree = "<group>"; };
 		4AA675361D76344000BD1325 /* NacdNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacdNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA675391D76344000BD1325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA6753B1D76344000BD1325 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,8 @@
 				4AA675381D76344000BD1325 /* NacdNews */,
 				4AA675371D76344000BD1325 /* Products */,
 				4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */,
+				4A10C74A1D83393A009BF9A6 /* 09042016_Sermon.mp3 */,
+				4A10C74E1D8342C6009BF9A6 /* PlaceholderImage.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,12 +103,14 @@
 			children = (
 				4AA675391D76344000BD1325 /* AppDelegate.swift */,
 				4AA6755B1D763ED700BD1325 /* nacdSample3.json */,
+				4A10C7481D833460009BF9A6 /* podcasts.json */,
 				4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */,
 				4AA6754D1D76348400BD1325 /* FirstTableViewController.swift */,
 				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
 				4AA6754F1D76349800BD1325 /* SecondTableViewController.swift */,
 				4AA675511D7634B300BD1325 /* ThirdTableViewController.swift */,
 				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
+				4A10C74C1D833963009BF9A6 /* Podcast.swift */,
 				4AA6755F1D76F51F00BD1325 /* BlogItem.swift */,
 				4AA675531D7634D100BD1325 /* FirstCell.swift */,
 				4AA675551D7634E600BD1325 /* SecondCell.swift */,
@@ -177,8 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA675461D76344000BD1325 /* LaunchScreen.storyboard in Resources */,
+				4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */,
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,
+				4A10C74B1D83393A009BF9A6 /* 09042016_Sermon.mp3 in Resources */,
 				4AA675411D76344000BD1325 /* Main.storyboard in Resources */,
+				4A10C7491D833460009BF9A6 /* podcasts.json in Resources */,
 				4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */,
 				4A10C7471D8323B3009BF9A6 /* IMG_1824.PNG in Resources */,
 				4AA6755C1D763ED700BD1325 /* nacdSample3.json in Resources */,
@@ -206,6 +221,7 @@
 				4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */,
 				4A10C73D1D83202A009BF9A6 /* FirstCollectionViewController.swift in Sources */,
 				4A10C7431D8321D1009BF9A6 /* SecondCollectionViewCell.swift in Sources */,
+				4A10C74D1D833963009BF9A6 /* Podcast.swift in Sources */,
 				4AA675581D7634FC00BD1325 /* ThirdCell.swift in Sources */,
 				4AA675521D7634B300BD1325 /* ThirdTableViewController.swift in Sources */,
 				4AA6754E1D76348400BD1325 /* FirstTableViewController.swift in Sources */,

@@ -156,7 +156,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uwa-M9-uhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695.5" y="-277.5"/>
+            <point key="canvasLocation" x="4635.5" y="498.5"/>
         </scene>
         <!--Blog Detail View Controller-->
         <scene sceneID="UFe-G7-LAq">
@@ -223,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3w-El-X50" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2571" y="-277"/>
+            <point key="canvasLocation" x="3435" y="-1073"/>
         </scene>
         <!--Sermons-->
         <scene sceneID="X8z-I9-dOB">
@@ -252,7 +252,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vqX-LG-c7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718" y="503"/>
+            <point key="canvasLocation" x="1810" y="1315"/>
         </scene>
         <!--Featured Videos-->
         <scene sceneID="G7W-K3-v9Y">
@@ -434,13 +434,103 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="TUy-cf-iKC" kind="relationship" relationship="viewControllers" id="21J-4i-5WC"/>
-                        <segue destination="kH6-MN-M4U" kind="relationship" relationship="viewControllers" id="zWr-Ua-rDS"/>
                         <segue destination="Y1i-7z-9oP" kind="relationship" relationship="viewControllers" id="YV8-3F-4N8"/>
+                        <segue destination="0of-2g-vIX" kind="relationship" relationship="viewControllers" id="VGr-PR-uzM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-168" y="-16"/>
+        </scene>
+        <!--Third Collection View Controller-->
+        <scene sceneID="c7A-Sb-MwN">
+            <objects>
+                <collectionViewController id="WY9-CF-9vw" customClass="ThirdCollectionViewController" customModule="NacdNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YXs-Lm-EKi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="30" minimumInteritemSpacing="30" id="7TF-j0-ep3">
+                            <size key="itemSize" width="350" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="30" minY="30" maxX="30" maxY="30"/>
+                        </collectionViewFlowLayout>
+                        <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1824.PNG" id="o9r-Mt-yWi">
+                            <rect key="frame" x="0.0" y="-64" width="600" height="600"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ThirdCollectionViewCell" id="yGZ-Iw-UQZ" customClass="ThirdCollectionViewCell" customModule="NacdNews" customModuleProvider="target">
+                                <rect key="frame" x="125" y="94" width="350" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="350" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sir-kR-oYg">
+                                            <rect key="frame" x="0.0" y="0.0" width="142" height="150"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN5-RO-42n">
+                                            <rect key="frame" x="162" y="15" width="180" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fX-uO-0hU">
+                                            <rect key="frame" x="162" y="115" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJe-R3-Nqw">
+                                            <rect key="frame" x="300" y="109" width="34" height="34"/>
+                                            <state key="normal" title="Play">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="playPauseTapped:" destination="WY9-CF-9vw" eventType="touchUpInside" id="sqe-Vp-HtX"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jN5-RO-42n" secondAttribute="trailing" constant="8" id="1m7-mM-Qa2"/>
+                                    <constraint firstAttribute="bottom" secondItem="sir-kR-oYg" secondAttribute="bottom" id="8mb-zz-xwP"/>
+                                    <constraint firstItem="jN5-RO-42n" firstAttribute="centerY" secondItem="sir-kR-oYg" secondAttribute="centerY" constant="-50" id="D58-tG-trR"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="sir-kR-oYg" secondAttribute="trailing" constant="200" id="DW8-aQ-zzd"/>
+                                    <constraint firstItem="4fX-uO-0hU" firstAttribute="centerY" secondItem="sir-kR-oYg" secondAttribute="centerY" constant="50" id="JvA-2X-91v"/>
+                                    <constraint firstItem="jN5-RO-42n" firstAttribute="leading" secondItem="sir-kR-oYg" secondAttribute="trailing" constant="20" id="Kkv-JQ-YGP"/>
+                                    <constraint firstItem="sir-kR-oYg" firstAttribute="top" secondItem="yGZ-Iw-UQZ" secondAttribute="top" id="NyP-F4-740"/>
+                                    <constraint firstItem="sir-kR-oYg" firstAttribute="leading" secondItem="yGZ-Iw-UQZ" secondAttribute="leading" id="RTp-Nf-8ha"/>
+                                    <constraint firstItem="VJe-R3-Nqw" firstAttribute="centerY" secondItem="4fX-uO-0hU" secondAttribute="centerY" id="WgO-xM-WWa"/>
+                                    <constraint firstItem="4fX-uO-0hU" firstAttribute="leading" secondItem="sir-kR-oYg" secondAttribute="trailing" constant="20" id="gLH-Hp-xO0"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="VJe-R3-Nqw" secondAttribute="trailing" constant="8" id="uHa-ak-riy"/>
+                                    <constraint firstItem="jN5-RO-42n" firstAttribute="leading" secondItem="sir-kR-oYg" secondAttribute="trailing" constant="75" id="vNz-gu-4V1"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="vNz-gu-4V1"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="playPauseButton" destination="VJe-R3-Nqw" id="Ksc-I4-3ZG"/>
+                                    <outlet property="podcastImageView" destination="sir-kR-oYg" id="mZQ-KA-f1s"/>
+                                    <outlet property="speakerLabel" destination="4fX-uO-0hU" id="2El-vH-pZK"/>
+                                    <outlet property="titleLabel" destination="jN5-RO-42n" id="nvP-8j-9Lz"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="WY9-CF-9vw" id="yuP-9k-L6y"/>
+                            <outlet property="delegate" destination="WY9-CF-9vw" id="JH1-Cs-4NS"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="F60-Ao-QYe"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mLJ-z0-lRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2200" y="157"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yr6-dV-v5w">
@@ -459,7 +549,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKu-S9-tXj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1128" y="-289"/>
+            <point key="canvasLocation" x="4032" y="532"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0kX-aV-YBB">
@@ -478,7 +568,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wl-wQ-z1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="493"/>
+            <point key="canvasLocation" x="925" y="1353"/>
         </scene>
         <!--Featured Videos-->
         <scene sceneID="Vvp-EH-3Hd">
@@ -517,6 +607,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gSS-i3-NnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1760" y="-1011"/>
+        </scene>
+        <!--Sermons-->
+        <scene sceneID="dVJ-su-aRL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0of-2g-vIX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sermons" id="zDj-Ks-n6k"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dkv-Ya-E6e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WY9-CF-9vw" kind="relationship" relationship="rootViewController" id="2ta-cA-loP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zrp-Sg-Jk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1416" y="125"/>
         </scene>
     </scenes>
     <resources>
