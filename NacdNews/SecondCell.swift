@@ -19,8 +19,10 @@ class SecondCell: UITableViewCell {
     
     @IBOutlet weak var secondImageView: UIImageView!
     
+    @IBOutlet weak var blogTextView: UITextView!
     
     
+    @IBOutlet weak var readMoreButton: UIButton!
     
 
     override func awakeFromNib() {

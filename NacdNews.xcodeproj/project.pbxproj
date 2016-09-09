@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A10C73B1D832010009BF9A6 /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */; };
+		4A10C73D1D83202A009BF9A6 /* FirstCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */; };
+		4A10C73F1D832042009BF9A6 /* ThirdCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */; };
+		4A10C7411D8321B5009BF9A6 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C7401D8321B5009BF9A6 /* FirstCollectionViewCell.swift */; };
+		4A10C7431D8321D1009BF9A6 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */; };
+		4A10C7451D8321E3009BF9A6 /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */; };
+		4A10C7471D8323B3009BF9A6 /* IMG_1824.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */; };
 		4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675391D76344000BD1325 /* AppDelegate.swift */; };
 		4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6753B1D76344000BD1325 /* FirstViewController.swift */; };
 		4AA675411D76344000BD1325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6753F1D76344000BD1325 /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
+		4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewController.swift; sourceTree = "<group>"; };
+		4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewController.swift; sourceTree = "<group>"; };
+		4A10C7401D8321B5009BF9A6 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1824.PNG; sourceTree = "<group>"; };
 		4AA675361D76344000BD1325 /* NacdNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacdNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA675391D76344000BD1325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA6753B1D76344000BD1325 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +76,7 @@
 			children = (
 				4AA675381D76344000BD1325 /* NacdNews */,
 				4AA675371D76344000BD1325 /* Products */,
+				4A10C7461D8323B3009BF9A6 /* IMG_1824.PNG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +108,12 @@
 				4AA675421D76344000BD1325 /* Assets.xcassets */,
 				4AA675441D76344000BD1325 /* LaunchScreen.storyboard */,
 				4AA675471D76344000BD1325 /* Info.plist */,
+				4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */,
+				4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */,
+				4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */,
+				4A10C7401D8321B5009BF9A6 /* FirstCollectionViewCell.swift */,
+				4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */,
+				4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */,
 			);
 			path = NacdNews;
 			sourceTree = "<group>";
@@ -159,6 +180,7 @@
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,
 				4AA675411D76344000BD1325 /* Main.storyboard in Resources */,
 				4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */,
+				4A10C7471D8323B3009BF9A6 /* IMG_1824.PNG in Resources */,
 				4AA6755C1D763ED700BD1325 /* nacdSample3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,14 +192,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A10C7411D8321B5009BF9A6 /* FirstCollectionViewCell.swift in Sources */,
 				4AA675601D76F51F00BD1325 /* BlogItem.swift in Sources */,
 				4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */,
+				4A10C73F1D832042009BF9A6 /* ThirdCollectionViewController.swift in Sources */,
+				4A10C73B1D832010009BF9A6 /* SecondCollectionViewController.swift in Sources */,
 				4AA675501D76349800BD1325 /* SecondTableViewController.swift in Sources */,
 				4AA6755A1D7639BE00BD1325 /* MediaItem.swift in Sources */,
+				4A10C7451D8321E3009BF9A6 /* ThirdCollectionViewCell.swift in Sources */,
 				4AA675561D7634E600BD1325 /* SecondCell.swift in Sources */,
 				4AB156131D778F25004601E7 /* BlogDetailViewController.swift in Sources */,
 				4AA675541D7634D100BD1325 /* FirstCell.swift in Sources */,
 				4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */,
+				4A10C73D1D83202A009BF9A6 /* FirstCollectionViewController.swift in Sources */,
+				4A10C7431D8321D1009BF9A6 /* SecondCollectionViewCell.swift in Sources */,
 				4AA675581D7634FC00BD1325 /* ThirdCell.swift in Sources */,
 				4AA675521D7634B300BD1325 /* ThirdTableViewController.swift in Sources */,
 				4AA6754E1D76348400BD1325 /* FirstTableViewController.swift in Sources */,

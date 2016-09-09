@@ -16,12 +16,17 @@ class SecondTableViewController: UITableViewController
     
     var imageCache = [String:UIImage]()
     
+    
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         myFormatter.dateStyle = .ShortStyle
         myFormatter.timeStyle = .NoStyle
+        
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 160
+        
         loadBlogs()
 
         // Uncomment the following line to preserve selection between presentations
@@ -47,7 +52,16 @@ class SecondTableViewController: UITableViewController
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return blogItems.count
-//        return 2
+   //     return 1
+    }
+    @IBAction func readMoreTapped(sender: UIButton)
+    {
+        let path = NSIndexPath()
+        let aBlog = blogItems[path.row]
+         aBlog.isExpanded = !aBlog.isExpanded
+       
+        
+        
     }
 
     
@@ -76,8 +90,23 @@ class SecondTableViewController: UITableViewController
             imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
             cell.secondImageView.image = UIImage.init(data: imageData)
         }
-
         
+//        if aBlog.isExpanded == true
+//        {
+//            print(aBlog.isExpanded)
+ //
+        let str = aBlog.channel
+        let nsString = str as NSString
+        if nsString.length > 0
+        {
+           cell.secondMiscLabel.text? = nsString.substringWithRange(NSRange(location: 0, length: nsString.length > 160 ? 160 : nsString.length))
+        }
+//    }
+      else
+        {
+        cell.secondMiscLabel.text? = aBlog.channel
+
+        }
         
         
 
@@ -121,11 +150,17 @@ class SecondTableViewController: UITableViewController
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
         //
-        let aBlog = blogItems[indexPath.row] 
+        let aBlog = blogItems[indexPath.row] //as! BlogItem
+        print("\(aBlog.isExpanded)")
+       // aBlog.isExpanded = true ? false: true
+        aBlog.isExpanded = !aBlog.isExpanded
         
+        if aBlog.isExpanded == false
+        {
         let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier("BlogDetailViewController") as! BlogDetailViewController
         navigationController?.pushViewController(detailVC, animated: true)
         detailVC.aBlogItem = aBlog
+        }
         
     }
     
@@ -175,5 +210,41 @@ class SecondTableViewController: UITableViewController
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
 
 }
+
+/*
+
+extension SecondTableViewController {
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        // 1
+        guard let cell = tableView.cellForRowAtIndexPath(indexPath) as? WorkTableViewCell else { return }
+        
+        var work = selectedArtist.works[indexPath.row]
+        
+        // 2
+        work.isExpanded = !work.isExpanded
+        selectedArtist.works[indexPath.row] = work
+        
+        // 3
+        cell.moreInfoTextView.text = work.isExpanded ? work.info : moreInfoText
+        cell.moreInfoTextView.textAlignment = work.isExpanded ? .Left : .Center
+        
+        // 4
+        UIView.animateWithDuration(0.3) {
+            cell.contentView.layoutIfNeeded()
+        }
+        
+        // 5
+        tableView.beginUpdates()
+        tableView.endUpdates()
+        
+        // 6
+        tableView.scrollToRowAtIndexPath(indexPath, atScrollPosition: UITableViewScrollPosition.Top, animated: true)
+    }
+}
+ 
+ */

@@ -13,7 +13,7 @@ class BlogItem
 {
     // let items: [[String: AnyObject]]
     // let itemsDict: [String:AnyObject]
-    
+    var isExpanded = false
     let entry_id: Int
     let channel: String
     let title: String
