@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import CoreMedia
+import Foundation
+import AVKit
+import AVFoundation
 
 class VideoDetailViewController: UIViewController
 {
@@ -36,6 +40,19 @@ class VideoDetailViewController: UIViewController
     
     @IBAction func playVideoTapped(sender: UIButton)
     {
+        let videoURL = NSURL(string: aVideo.media_vimeo_m3u8_id)
+        let player = AVPlayer(URL: videoURL!)
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        self.presentViewController(playerViewController, animated: true) {
+            // playerViewController.player!.seekToTime(inTime)
+            
+            playerViewController.player?.play()
+            
+        }
+        
+
+        
         
     }
 

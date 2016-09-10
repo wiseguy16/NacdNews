@@ -27,6 +27,14 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GothamHTF-Black.otf</string>
+		<string>GothamHTF-Bold.otf</string>
+		<string>GothamHTF-MediumCondensed.otf</string>
+		<string>GothamHTF-Book.otf</string>
+		<string>GothamHTF-BookCondensed.otf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

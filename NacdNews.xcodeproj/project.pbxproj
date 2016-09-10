@@ -65,6 +65,14 @@
 		4AC7655B1D847923000F265F /* surfRider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765421D847923000F265F /* surfRider.jpg */; };
 		4AC7655C1D847923000F265F /* usWithLights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765431D847923000F265F /* usWithLights.jpg */; };
 		4AC7655D1D847923000F265F /* valleyWithSunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765441D847923000F265F /* valleyWithSunset.jpg */; };
+		4AC7655F1D848AD9000F265F /* videoPlayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7655E1D848AD9000F265F /* videoPlayIcon.png */; };
+		4AC765611D84A150000F265F /* LogoMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765601D84A150000F265F /* LogoMain.png */; };
+		4AC765631D84A563000F265F /* rocketSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765621D84A563000F265F /* rocketSquare.png */; };
+		4AC765691D84B1FF000F265F /* blogIconUnhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765641D84B1FF000F265F /* blogIconUnhighlighted.png */; };
+		4AC7656A1D84B1FF000F265F /* micIconUnhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765651D84B1FF000F265F /* micIconUnhighlighted.png */; };
+		4AC7656B1D84B1FF000F265F /* videoIconUnhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765661D84B1FF000F265F /* videoIconUnhighlighted.png */; };
+		4AC7656C1D84B1FF000F265F /* houseIconHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765671D84B1FF000F265F /* houseIconHighlighted.png */; };
+		4AC7656D1D84B1FF000F265F /* houseIconUnhighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765681D84B1FF000F265F /* houseIconUnhighlighted.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +136,14 @@
 		4AC765421D847923000F265F /* surfRider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surfRider.jpg; sourceTree = "<group>"; };
 		4AC765431D847923000F265F /* usWithLights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usWithLights.jpg; sourceTree = "<group>"; };
 		4AC765441D847923000F265F /* valleyWithSunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valleyWithSunset.jpg; sourceTree = "<group>"; };
+		4AC7655E1D848AD9000F265F /* videoPlayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoPlayIcon.png; sourceTree = "<group>"; };
+		4AC765601D84A150000F265F /* LogoMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoMain.png; sourceTree = "<group>"; };
+		4AC765621D84A563000F265F /* rocketSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocketSquare.png; sourceTree = "<group>"; };
+		4AC765641D84B1FF000F265F /* blogIconUnhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blogIconUnhighlighted.png; sourceTree = "<group>"; };
+		4AC765651D84B1FF000F265F /* micIconUnhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micIconUnhighlighted.png; sourceTree = "<group>"; };
+		4AC765661D84B1FF000F265F /* videoIconUnhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoIconUnhighlighted.png; sourceTree = "<group>"; };
+		4AC765671D84B1FF000F265F /* houseIconHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseIconHighlighted.png; sourceTree = "<group>"; };
+		4AC765681D84B1FF000F265F /* houseIconUnhighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseIconUnhighlighted.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +162,9 @@
 			children = (
 				4AA675381D76344000BD1325 /* NacdNews */,
 				4AA675371D76344000BD1325 /* Products */,
+				4AC765621D84A563000F265F /* rocketSquare.png */,
+				4AC765601D84A150000F265F /* LogoMain.png */,
+				4AC7655E1D848AD9000F265F /* videoPlayIcon.png */,
 				4AC765261D846121000F265F /* Bg5.png */,
 				4AC765161D83A24E000F265F /* BgCopy.png */,
 				4AC765141D83A1A7000F265F /* BgSuperBig.png */,
@@ -209,6 +228,11 @@
 				4AA6753B1D76344000BD1325 /* FirstViewController.swift */,
 				4AA6753F1D76344000BD1325 /* Main.storyboard */,
 				4AA675421D76344000BD1325 /* Assets.xcassets */,
+				4AC765641D84B1FF000F265F /* blogIconUnhighlighted.png */,
+				4AC765651D84B1FF000F265F /* micIconUnhighlighted.png */,
+				4AC765661D84B1FF000F265F /* videoIconUnhighlighted.png */,
+				4AC765671D84B1FF000F265F /* houseIconHighlighted.png */,
+				4AC765681D84B1FF000F265F /* houseIconUnhighlighted.png */,
 				4AC7650C1D839E55000F265F /* BgLaunch2x.png */,
 				4AA675441D76344000BD1325 /* LaunchScreen.storyboard */,
 				4AA675471D76344000BD1325 /* Info.plist */,
@@ -282,7 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC765091D839842000F265F /* Gotham in Resources */,
+				4AC7656C1D84B1FF000F265F /* houseIconHighlighted.png in Resources */,
 				4AC765571D847923000F265F /* hillWideshot.jpg in Resources */,
+				4AC7656D1D84B1FF000F265F /* houseIconUnhighlighted.png in Resources */,
 				4AC7654C1D847923000F265F /* feet.jpg in Resources */,
 				4AC765561D847923000F265F /* highwayIntoForest.jpg in Resources */,
 				4AC7654A1D847923000F265F /* desertCracks.jpg in Resources */,
@@ -291,14 +317,20 @@
 				4AA675461D76344000BD1325 /* LaunchScreen.storyboard in Resources */,
 				4AC7654D1D847923000F265F /* flowerDark.jpg in Resources */,
 				4AC765271D846121000F265F /* Bg5.png in Resources */,
+				4AC7655F1D848AD9000F265F /* videoPlayIcon.png in Resources */,
 				4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */,
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,
+				4AC765611D84A150000F265F /* LogoMain.png in Resources */,
 				4AC765541D847923000F265F /* guyLookingToSun.jpg in Resources */,
 				4AC765461D847923000F265F /* bridgeWithClouds.jpg in Resources */,
 				4AC765551D847923000F265F /* guyOnCliff.jpg in Resources */,
+				4AC7656A1D84B1FF000F265F /* micIconUnhighlighted.png in Resources */,
 				4A10C74B1D83393A009BF9A6 /* 09042016_Sermon.mp3 in Resources */,
+				4AC7656B1D84B1FF000F265F /* videoIconUnhighlighted.png in Resources */,
 				4AC7654E1D847923000F265F /* forestWithCutTrees.jpg in Resources */,
 				4AC765511D847923000F265F /* globe.jpg in Resources */,
+				4AC765631D84A563000F265F /* rocketSquare.png in Resources */,
+				4AC765691D84B1FF000F265F /* blogIconUnhighlighted.png in Resources */,
 				4AA675411D76344000BD1325 /* Main.storyboard in Resources */,
 				4AC765171D83A24E000F265F /* BgCopy.png in Resources */,
 				4AC765501D847923000F265F /* girlByWater.jpg in Resources */,

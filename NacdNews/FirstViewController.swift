@@ -8,10 +8,30 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController
+{
+    
+    @IBOutlet weak var launchLabel: UILabel!
+    @IBOutlet weak var poweredByLabel: UILabel!
+    
+    var launchString = "LAUNCH"
+    var poweredByString = "POWERED BY NORTHLAND"
+    var myMutableString1 = NSMutableAttributedString()
+    var myMutableString2 = NSMutableAttributedString()
+    
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
+       // myMutableString2 = NSMutableAttributedString(string: <#T##String#>, attributes: <#T##[String : AnyObject]?#>)
+      //  myMutableString1 = NSMutableAttributedString(string: launchString,attributes: [NSFontAttributeName: UIFont(name: "GothamHTF-MediumCondensed", size: 95.0)!])
+      //  myMutableString2 = NSMutableAttributedString(string: poweredByString,attributes: [NSFontAttributeName:UIFont(name: "GothamHTF-MediumCondensed",size: 45.0)!])
+        //Add more attributes here
+        
+        //Apply to the label
+       // launchLabel.attributedText = myMutableString1
+       // poweredByLabel.attributedText = myMutableString2
         // Do any additional setup after loading the view, typically from a nib.
     }
 
