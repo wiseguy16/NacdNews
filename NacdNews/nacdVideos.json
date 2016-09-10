@@ -1,0 +1,405 @@
+{  
+   "items":[  
+      {  
+         "entry_id":65282,
+         "channel":"Media",
+         "title":"On constantly being a vessel for God’s will",
+         "urltitle":"on_constantly_being_a_vessel_for_gods_will",
+         "entry_date":"2016-05-15T16:11:00-04:00",
+         "categories":[  
+            {  
+               "category_id":48,
+               "category_name":"Recent Worship Services",
+               "category_url_title":"worship_service"
+            },
+            {  
+               "category_id":44,
+               "category_name":"Sermon Archive",
+               "category_url_title":"services"
+            },
+            {  
+               "category_id":523,
+               "category_name":"Vimeo",
+               "category_url_title":"vimeo"
+            },
+            {  
+               "category_id":217,
+               "category_name":"iPhone",
+               "category_url_title":"iphone"
+            },
+            {  
+               "category_id":58,
+               "category_name":"Live Service",
+               "category_url_title":"live_service"
+            }
+         ],
+         "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+         "media-reference":"I Thessalonians 5:16-18",
+         "media-speaker":"Dr. Joel Hunter",
+         "media-week":"20",
+         "media-podcast":true,
+         "media-embed":"167169933",
+         "media-image":"caveHoleOrangeLight.jpg",
+         "media-primary":"grandCanyonLook.jpg",
+         "media-live":false,
+         "media-unit":{  
+            "entry_id":65180,
+            "channel":"Series",
+            "title":"The Community of Eternal Life",
+            "urltitle":"the_community_of_eternal_life"
+         },
+         "media-youtube-id":"cmUZf9umGnQ",
+         "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482"
+      },
+      {  
+         "entry_id":63522,
+         "media-youtube-id":"cmUZf9umGnQ",
+         "media-vimeo-m3u8-id":"https://player.vimeo.com/external/178381165.m3u8?s=fbc41eb28ffc1252d6f25dd26d499911eafc71f2",
+         "channel":"Media",
+         "title":"Longing for Life",
+         "urltitle":"longing_for_life",
+         "entry_date":"2015-11-22T12:53:00-05:00",
+         "categories":[  
+            {  
+               "category_id":48,
+               "category_name":"Recent Worship Services",
+               "category_url_title":"worship_service"
+            },
+            {  
+               "category_id":44,
+               "category_name":"Sermon Archive",
+               "category_url_title":"services"
+            },
+            {  
+               "category_id":523,
+               "category_name":"Vimeo",
+               "category_url_title":"vimeo"
+            },
+            {  
+               "category_id":217,
+               "category_name":"iPhone",
+               "category_url_title":"iphone"
+            },
+            {  
+               "category_id":58,
+               "category_name":"Live Service",
+               "category_url_title":"live_service"
+            }
+         ],
+         "tags":[  
+            {  
+               "tag_id":220,
+               "tag_name":"living water",
+               "total_entries":1
+            },
+            {  
+               "tag_id":123,
+               "tag_name":"matt heard",
+               "total_entries":9
+            }
+         ],
+         "media-description":"Worship God today for giving us eternal life. This life is in His Son. He who has the Son has life; he who does not have the Son of God does not have life. To him who is thirsty, come and drink of the water of life freely.",
+         "media-reference":"John 4: 10-18",
+         "media-speaker":"Pastor Matt Heard",
+         "media-week":"47",
+         "media-podcast":true,
+         "media-embed":"146719944",
+         "media-image":"girlByOceanRocks.jpg",
+         "media-primary":"girlByOceanRocks.jpg",
+         "media-live":false,
+         "media-unit":{  
+            "entry_id":63486,
+            "channel":"Series",
+            "title":"Longing For Life",
+            "urltitle":"longing_for_life"
+            
+         }
+            
+      },
+            {  
+         "entry_id":63430,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/178381059.m3u8?s=16b9bc7df343e7d96219ab7732d40b1c5b6a4bae",
+         "channel":"Blogs",
+         "title":"How to Celebrate Advent With Your Family",
+         "urltitle":"how_to_celebrate_advent_with_your_family",
+         "entry_date":"2015-11-11T11:29:00-05:00",
+         "tags":[  
+            {  
+               "tag_id":183,
+               "tag_name":"advent",
+               "total_entries":3
+            },
+            {  
+               "tag_id":7,
+               "tag_name":"children",
+               "total_entries":7
+            },
+            {  
+               "tag_id":147,
+               "tag_name":"christmas",
+               "total_entries":15
+            },
+            {  
+               "tag_id":52,
+               "tag_name":"family",
+               "total_entries":13
+            }
+         ],
+         "media-primary":"globe.jpg"
+      },
+      {  
+         "entry_id":4804,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/174544913.m3u8?s=72a18d38b0cc8755837cc66b1336104d3d02a5e7",
+         "channel":"Blogs",
+         "title":"What Is Advent?",
+         "urltitle":"advent_week_1_what_is_advent",
+         "entry_date":"2015-11-13T11:57:00-05:00",
+         "categories":[  
+            {  
+               "category_id":186,
+               "category_name":"Local Sites",
+               "category_url_title":"locations"
+            },
+            {  
+               "category_id":130,
+               "category_name":"Longwood",
+               "category_url_title":"longwood"
+            }
+         ],
+         "tags":[  
+            {  
+               "tag_id":183,
+               "tag_name":"advent",
+               "total_entries":3
+            },
+            {  
+               "tag_id":147,
+               "tag_name":"christmas",
+               "total_entries":15
+            }
+         ],
+         "media-primary":"valleyWithSunset.jpg"
+      },
+      {  
+         "entry_id":22339,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/169117248.m3u8?s=e920bec78258ee79dc9b5600206ee910b6d622bc",
+         "channel":"Blogs",
+         "title":"Help a Student Go to Christmas Camp",
+         "urltitle":"help_a_student_go_to_christmas_camp",
+         "entry_date":"2015-11-04T13:46:00-05:00",
+         "categories":[  
+            {  
+               "category_id":394,
+               "category_name":"Live Generously",
+               "category_url_title":"livegenerously"
+            },
+            {  
+               "category_id":187,
+               "category_name":"News and Inspiration",
+               "category_url_title":"news"
+            }
+         ],
+         "media-primary":"peopleInCoffeShop.jpg"
+      },
+      {  
+         "entry_id":63417,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167944828.m3u8?s=24043fd869e7e46bf8ee94593c1d7fca0dbe8fcb",
+         "channel":"Media",
+         "title":"How Great Is Our God (World)",
+         "urltitle":"how_great_is_our_god_world",
+         "entry_date":"2015-11-08T18:45:00-05:00",
+         "categories":[  
+            {  
+               "category_id":45,
+               "category_name":"Highlights",
+               "category_url_title":"highlights"
+            },
+            {  
+               "category_id":377,
+               "category_name":"highlight_roku",
+               "category_url_title":"highlight_roku"
+            }
+         ],
+         "media-speaker":"Worship Team",
+         "media-video":"how_great_is_our_god_tipping_point",
+         "media-podcast":true,
+         "media-embed":"145506353",
+         "media-image":"http://www.northlandchurch.net/_img/uploads/how_great_is_our_god_tipping_point_thumb.jpg",
+         "media-primary":"desertWithTree.jpg",
+         "media-live":false
+      },
+      {  
+         "entry_id":63255,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+         "channel":"Blogs",
+         "title":"Christmas House Is Coming!",
+         "urltitle":"christmas_house_is_coming",
+         "entry_date":"2015-10-28T13:18:00-04:00",
+         "tags":[  
+            {  
+               "tag_id":147,
+               "tag_name":"christmas",
+               "total_entries":15
+            },
+            {  
+               "tag_id":17,
+               "tag_name":"serve",
+               "total_entries":8
+            },
+            {  
+               "tag_id":172,
+               "tag_name":"serving to empower",
+               "total_entries":2
+            }
+         ],
+         "media-primary":"boatOverHead.jpg"
+      },
+      {  
+         "entry_id":63436,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+         "channel":"Blogs",
+         "title":"Does Religion Make Kids Mean?",
+         "urltitle":"does_religion_make_kids_mean",
+         "entry_date":"2015-11-12T14:25:00-05:00",
+         "tags":[  
+            {  
+               "tag_id":7,
+               "tag_name":"children",
+               "total_entries":7
+            },
+            {  
+               "tag_id":126,
+               "tag_name":"culture",
+               "total_entries":3
+            },
+            {  
+               "tag_id":184,
+               "tag_name":"morality",
+               "total_entries":1
+            },
+            {  
+               "tag_id":111,
+               "tag_name":"news",
+               "total_entries":67
+            },
+            {  
+               "tag_id":110,
+               "tag_name":"northland",
+               "total_entries":10
+            },
+            {  
+               "tag_id":149,
+               "tag_name":"parenting",
+               "total_entries":7
+            }
+         ],
+         "media-primary":"highwayIntoForest.jpg"
+      },
+      {  
+         "entry_id":63416,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+         "channel":"Media",
+         "title":"Shackles (Praise You)",
+         "urltitle":"shackles_praise_you",
+         "entry_date":"2015-11-08T18:44:00-05:00",
+         "categories":[  
+            {  
+               "category_id":45,
+               "category_name":"Highlights",
+               "category_url_title":"highlights"
+            },
+            {  
+               "category_id":377,
+               "category_name":"highlight_roku",
+               "category_url_title":"highlight_roku"
+            }
+         ],
+         "media-speaker":"Worship Team",
+         "media-video":"shackles",
+         "media-podcast":true,
+         "media-embed":"145442204",
+         "media-image":"http://www.northlandchurch.net/_img/uploads/shackles_thumb.jpg",
+         "media-primary":"caveHoleOrangeLight.jpg",
+         "media-live":false
+      },
+      {  
+         "entry_id":63418,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+         "channel":"Media",
+         "title":"Waiting Here For You",
+         "urltitle":"waiting_here_for_you1",
+         "entry_date":"2015-11-08T15:27:00-05:00",
+         "categories":[  
+            {  
+               "category_id":45,
+               "category_name":"Highlights",
+               "category_url_title":"highlights"
+            },
+            {  
+               "category_id":377,
+               "category_name":"highlight_roku",
+               "category_url_title":"highlight_roku"
+            }
+         ],
+         "media-speaker":"Worship Team",
+         "media-video":"waiting_here_for_you_tipping_point",
+         "media-podcast":true,
+         "media-embed":"145435041",
+         "media-image":"http://www.northlandchurch.net/_img/uploads/waiting_here_for_you_tipping_point_thumb.jpg",
+         "media-primary":"hillWideshot.jpg",
+         "media-live":false
+      },
+      {  
+         "entry_id":63194,
+            "media-youtube-id":"cmUZf9umGnQ",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+         "channel":"Blogs",
+         "title":"Savor This Podcast With 4 Rivers’ CEO, John Rivers",
+         "urltitle":"savor_this_podcast_with_4_rivers_founder_john_rivers",
+         "entry_date":"2015-10-21T10:50:00-04:00",
+         "tags":[  
+            {  
+               "tag_id":122,
+               "tag_name":"business",
+               "total_entries":6
+            },
+            {  
+               "tag_id":166,
+               "tag_name":"chasing wisdom",
+               "total_entries":6
+            },
+            {  
+               "tag_id":167,
+               "tag_name":"podcasts",
+               "total_entries":4
+            },
+            {  
+               "tag_id":107,
+               "tag_name":"wisdom",
+               "total_entries":78
+            }
+         ],
+         "media-primary":"usWithLights.jpg"
+      }
+   ],
+   "pageInfo":{  
+      "totalResults":12
+   },
+   "newspaper":{  
+      "entry_id":65969,
+      "channel":"Newspaper",
+      "title":"Week 35: August 27 to September 3",
+      "urltitle":"week_35_august_27_to_september_3",
+      "entry_date":"2016-08-25T09:18:00-04:00",
+      "newspaper-pdf":"http://www.nacdweb.org/files/pressroom/WG-R35_2016FNLweb.pdf",
+      "newspaper-embed":"http://www.nacdweb.org/files/pressroom///issuu.com/northlandchurch/docs/wg-r35_2016fnlweb?mode=embed&showFlipBtn=true"
+   }
+}

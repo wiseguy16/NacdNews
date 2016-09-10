@@ -144,10 +144,9 @@ class SecondCollectionViewController: UICollectionViewController
         }
     }
     
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
+    {
         
-   
-        //
         let aBlog = blogItems[indexPath.row] //as! BlogItem
         print("\(aBlog.isExpanded)")
         // aBlog.isExpanded = true ? false: true

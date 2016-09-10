@@ -22,6 +22,17 @@ class ThirdCollectionViewController: UICollectionViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      //    self.collectionView?.backgroundColor = UIColor(patternImage: UIImage(named: "BgLaunch.png")!)
+//        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+//        backgroundImage.image = UIImage(named: "BgLaunch.png")
+//        self.view.insertSubview(backgroundImage, atIndex: 0)
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BgLaunch2x.png")!)
+        
+        
+       // self.collectionView?.backgroundView = bgImage
+        
+        NSKernAttributeName.capitalizedString
         
         myFormatter.dateStyle = .ShortStyle
         myFormatter.timeStyle = .NoStyle
@@ -36,7 +47,18 @@ class ThirdCollectionViewController: UICollectionViewController
 
         // Do any additional setup after loading the view.
     }
-
+    
+    override func viewWillAppear(animated: Bool)
+    {
+//        let bgImage = UIImageView();
+//        bgImage.image = UIImage(named: "BgLaunch.png");
+//        bgImage.contentMode = .ScaleToFill
+//        
+//        
+//        self.collectionView?.backgroundView = bgImage
+    }
+    
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -93,10 +115,10 @@ class ThirdCollectionViewController: UICollectionViewController
         }
         else
         {
-           audioPlayer.pause()
+           audioPlayer.stop()
         }
         
-        collectionView?.reloadData()
+        collectionView?.reloadItemsAtIndexPaths([thisIndexPath!])
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell

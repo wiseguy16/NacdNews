@@ -79,45 +79,44 @@ class FirstCollectionViewController: UICollectionViewController
         let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
         
         cell.firstDescriptionLabel.text = formattedDate
+        cell.firstImageView.image = UIImage(named: aMediaThing.media_image)
         
         //  do
         //  {
-        if let firstURL = NSURL(string: aMediaThing.media_image)
-        {
+    //    if let firstURL = NSURL(string: aMediaThing.media_image)
+    //    {
             
             
             
             // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
-            imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
-            cell.firstImageView.image = UIImage.init(data: imageData)
-        }
+    //        imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
+    //        cell.firstImageView.image = UIImage.init(data: imageData)
+    //    }
     
         return cell
     }
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
+    {
+        
+        let aVideoItem = mediaItems[indexPath.row] //as! BlogItem
+      
+            let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier("VideoDetailViewController") as! VideoDetailViewController
+            navigationController?.pushViewController(detailVC, animated: true)
+            detailVC.aVideo = aVideoItem
+        
+        
+    }
+
+    
+    
         
         func loadMediaItems()
         {
-            /*
-             do
-             {
-             let filePath = Bundle.main.path(forResource: "nacdSample", ofType: "json")
-             let dataFromFile = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
-             let mediaItemData: NSArray! = try JSONSerialization.jsonObject(with: dataFromFile!, options: []) as! NSArray
-             for mediaItemDictionary in mediaItemData
-             {
-             let aMediaItem = MediaItem(myDictionary: mediaItemDictionary as! NSDictionary)
-             mediaItems.append(aMediaItem)
-             }
-             }
-             catch let error as NSError
-             {
-             print(error)
-             }
-             */
             
             
-            let filePath = NSBundle.mainBundle().pathForResource("nacdSample3", ofType: "json")  //main.path(forResource: "nacdSample3", ofType: "json")
-            let dataFromFile2 = NSData(contentsOfFile: filePath!)                   //      (contentsOf: URL(fileURLWithPath: filePath!))
+            let filePath = NSBundle.mainBundle().pathForResource("nacdVideos", ofType: "json")
+            let dataFromFile2 = NSData(contentsOfFile: filePath!)
             do
             {
                 

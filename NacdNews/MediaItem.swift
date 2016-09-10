@@ -37,7 +37,7 @@ class MediaItem
   //  let unit_title: String
 //    let unit_urltitle: String
 //    let media_youtube_id: String
-//    let media_vimeo_m3u8_id: String
+    let media_vimeo_m3u8_id: String
 
    // let blog_primary: String
    
@@ -77,7 +77,7 @@ class MediaItem
       //  unit_title = myDictionary["title"] as! String
 //        unit_urltitle = myDictionary["urltitle"] as! String
   //      media_youtube_id = myDictionary["media-youtube-id"] as! String
-    //    media_vimeo_m3u8_id = myDictionary["media-vimeo-m3u8-id"] as! String
+        media_vimeo_m3u8_id = myDictionary["media-vimeo-m3u8-id"] as! String
         
       //  blog_primary = myDictionary["blog_primary"] as! String
  
