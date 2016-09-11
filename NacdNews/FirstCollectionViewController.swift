@@ -69,16 +69,17 @@ class FirstCollectionViewController: UICollectionViewController
         // Configure the cell
         
         let aMediaThing = mediaItems[indexPath.row]
-        var imageData: NSData
+        //var imageData: NSData
         
         cell.firstTitleLabel.text = aMediaThing.title
         
-        let dateToShow = aMediaThing.entry_date
-        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
-        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
-        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
+//        let dateToShow = aMediaThing.entry_date
+//        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
+//        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
+//        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
         
-        cell.firstDescriptionLabel.text = formattedDate
+        //cell.firstDescriptionLabel.text = formattedDate
+        cell.firstDescriptionLabel.text = aMediaThing.media_speaker
         cell.firstImageView.image = UIImage(named: aMediaThing.media_image)
         
         //  do

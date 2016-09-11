@@ -13,16 +13,19 @@ class MediaItem
    // let items: [[String: AnyObject]]
    // let itemsDict: [String:AnyObject]
     
+    let title: String
+    let media_speaker: String
+    
     let entry_id: Int
     let channel: String
-    let title: String
+    
     let urltitle: String
     let entry_date: String
  //   let categories: String
  //   let tags: String
- //  let media_description: String
+   let media_description: String
 //    let media_reference: String
-//    let media_speaker: String
+    
  //   let media_week: Int
 //    let media_video: Int
 //    let media_podcast: Bool
@@ -50,18 +53,19 @@ class MediaItem
        // itemsDict = items[0]
        // itemsDict = myArray[0]
         
-        
+        title = myDictionary["title"] as! String
+        media_speaker = myDictionary["media-speaker"] as! String
         
         entry_id = myDictionary["entry_id"] as! Int
         channel = myDictionary["channel"] as! String
-        title = myDictionary["title"] as! String
+        
         urltitle = myDictionary["urltitle"] as! String
         entry_date = myDictionary["entry_date"] as! String
     //  categories = myDictionary["categories"] as! String
     //    tags = myDictionary["tags"] as! String
-    //  media_description = myDictionary["media-description"] as! String
+      media_description = myDictionary["media-description"] as! String
 //        media_reference = myDictionary["media-reference"] as! String
-  //      media_speaker = myDictionary["media-speaker"] as! String
+        
    //   media_week = myDictionary["media-week"] as! Int
 //        media_video = myDictionary["media-video"] as! Int
   //      media_podcast = myDictionary["media-podcast"] as! Bool

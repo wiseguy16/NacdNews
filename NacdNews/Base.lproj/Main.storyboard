@@ -10,15 +10,21 @@
     <customFonts key="customFonts">
         <mutableArray key="GothamHTF-Book.otf">
             <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
+        </mutableArray>
+        <mutableArray key="GothamHTF-BookItalic.otf">
+            <string>GothamHTF-BookItalic</string>
         </mutableArray>
         <mutableArray key="GothamHTF-Light.otf">
             <string>GothamHTF-Light</string>
         </mutableArray>
-        <mutableArray key="GothamHTF-Medium.otf">
-            <string>GothamHTF-Medium</string>
-        </mutableArray>
         <mutableArray key="GothamHTF-MediumCondensed.otf">
             <string>GothamHTF-MediumCondensed</string>
+        </mutableArray>
+        <mutableArray key="GothamHTF-Thin.otf">
+            <string>GothamHTF-Thin</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -333,42 +339,22 @@
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znN-IW-g7B">
-                                            <rect key="frame" x="8" y="200" width="284" height="18"/>
-                                            <attributedString key="attributedText">
-                                                <fragment content="Label">
-                                                    <attributes>
-                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="19" name="GothamHTF-Book"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znN-IW-g7B">
+                                            <rect key="frame" x="8" y="220" width="284" height="26"/>
+                                            <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="23"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dii-C6-lBj">
-                                            <rect key="frame" x="8" y="275" width="284" height="17"/>
-                                            <attributedString key="attributedText">
-                                                <fragment content="Watch -&gt;">
-                                                    <attributes>
-                                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch -&gt;  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dii-C6-lBj">
+                                            <rect key="frame" x="8" y="279" width="284" height="14.5"/>
+                                            <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="13"/>
+                                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-wl-0Ii">
-                                            <rect key="frame" x="8" y="238" width="284" height="17"/>
-                                            <attributedString key="attributedText">
-                                                <fragment content="Label">
-                                                    <attributes>
-                                                        <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="16" name="GothamHTF-Light"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-wl-0Ii">
+                                            <rect key="frame" x="8" y="254" width="284" height="17.5"/>
+                                            <fontDescription key="fontDescription" name="GothamHTF-Light" family="Gotham HTF" pointSize="12"/>
+                                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -381,15 +367,15 @@
                                     <constraint firstAttribute="trailing" secondItem="znN-IW-g7B" secondAttribute="trailing" constant="8" id="6AC-eX-YVt"/>
                                     <constraint firstItem="znN-IW-g7B" firstAttribute="leading" secondItem="OPY-Hp-2bo" secondAttribute="leading" constant="8" id="9hH-1E-fVT"/>
                                     <constraint firstItem="znN-IW-g7B" firstAttribute="top" secondItem="yey-hj-YgF" secondAttribute="bottom" constant="8" id="KCC-rx-xIO"/>
-                                    <constraint firstItem="dii-C6-lBj" firstAttribute="top" secondItem="NIs-wl-0Ii" secondAttribute="bottom" constant="20" id="RLl-v4-CSm"/>
+                                    <constraint firstItem="dii-C6-lBj" firstAttribute="top" secondItem="NIs-wl-0Ii" secondAttribute="bottom" constant="8" id="RLl-v4-CSm"/>
                                     <constraint firstItem="yey-hj-YgF" firstAttribute="leading" secondItem="OPY-Hp-2bo" secondAttribute="leading" id="XGf-zK-DuN"/>
                                     <constraint firstItem="dii-C6-lBj" firstAttribute="leading" secondItem="OPY-Hp-2bo" secondAttribute="leading" constant="8" id="aOt-K3-gqz"/>
-                                    <constraint firstAttribute="bottom" secondItem="dii-C6-lBj" secondAttribute="bottom" constant="8" id="c96-XF-Vrv"/>
+                                    <constraint firstAttribute="bottom" secondItem="dii-C6-lBj" secondAttribute="bottom" constant="6" id="c96-XF-Vrv"/>
                                     <constraint firstAttribute="trailing" secondItem="NIs-wl-0Ii" secondAttribute="trailing" constant="8" id="jQp-ym-Wra"/>
                                     <constraint firstAttribute="bottom" secondItem="yey-hj-YgF" secondAttribute="bottom" constant="150" id="mhH-ci-Odm"/>
                                     <constraint firstItem="yey-hj-YgF" firstAttribute="top" secondItem="OPY-Hp-2bo" secondAttribute="top" id="nLy-wR-o72"/>
                                     <constraint firstAttribute="trailing" secondItem="yey-hj-YgF" secondAttribute="trailing" id="tW4-MK-o7o"/>
-                                    <constraint firstItem="NIs-wl-0Ii" firstAttribute="top" secondItem="znN-IW-g7B" secondAttribute="bottom" constant="20" id="yhY-f9-Wzi"/>
+                                    <constraint firstItem="NIs-wl-0Ii" firstAttribute="top" secondItem="znN-IW-g7B" secondAttribute="bottom" constant="8" id="yhY-f9-Wzi"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -434,43 +420,24 @@
                                 <rect key="frame" x="22" y="124" width="556" height="446"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wk2-WD-Tzt">
-                                        <rect key="frame" x="0.0" y="0.0" width="556" height="157"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="556" height="156.5"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd4-Yy-fe7">
-                                        <rect key="frame" x="8" y="320" width="540" height="26"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Label">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="24" name="GothamHTF-Book"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd4-Yy-fe7">
+                                        <rect key="frame" x="8" y="308" width="540" height="39"/>
+                                        <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="36"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8p-dj-owR">
-                                        <rect key="frame" x="8" y="358" width="540" height="20"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Label">
-                                                <attributes>
-                                                    <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8p-dj-owR">
+                                        <rect key="frame" x="8" y="360.5" width="540" height="18.5"/>
+                                        <fontDescription key="fontDescription" name="GothamHTF-BookItalic" family="Gotham HTF" pointSize="17"/>
+                                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-ty-Aqh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-ty-Aqh">
                                         <rect key="frame" x="8" y="390" width="540" height="16"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Label">
-                                                <attributes>
-                                                    <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" size="14" name="GothamHTF-Book"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <fontDescription key="fontDescription" name="GothamHTF-Thin" family="Gotham HTF" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfh-6o-hge">
@@ -583,7 +550,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpu-qu-LPe">
-                                            <rect key="frame" x="0.0" y="240" width="300" height="16"/>
+                                            <rect key="frame" x="0.0" y="240" width="300" height="15.5"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="Label">
                                                     <attributes>
@@ -706,8 +673,8 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJe-R3-Nqw">
-                                            <rect key="frame" x="287" y="109" width="47" height="33"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJe-R3-Nqw">
+                                            <rect key="frame" x="287" y="108.5" width="47" height="33"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="47" id="azf-Cv-nBj"/>
                                             </constraints>

@@ -3,7 +3,7 @@
       {  
          "entry_id":65282,
          "channel":"Media",
-         "title":"On constantly being a vessel for God’s will",
+         "title":"Only King Forever",
          "urltitle":"on_constantly_being_a_vessel_for_gods_will",
          "entry_date":"2016-05-15T16:11:00-04:00",
          "categories":[  
@@ -33,9 +33,9 @@
                "category_url_title":"live_service"
             }
          ],
-         "media-description":"Worship Christ today as our High Priest. He sits at the right hand of God,  interceding for us before the Father.  Because we are HIs, our prayers are powerful and effective.",
+            "media-description":"Words and Music by Mack Brock, Christopher Brown, Steven Furtick and Wade Joye",
          "media-reference":"I Thessalonians 5:16-18",
-         "media-speaker":"Dr. Joel Hunter",
+         "media-speaker":"Northland Worship Team",
          "media-week":"20",
          "media-podcast":true,
          "media-embed":"167169933",
@@ -56,7 +56,7 @@
          "media-youtube-id":"cmUZf9umGnQ",
          "media-vimeo-m3u8-id":"https://player.vimeo.com/external/178381165.m3u8?s=fbc41eb28ffc1252d6f25dd26d499911eafc71f2",
          "channel":"Media",
-         "title":"Longing for Life",
+         "title":"Your Love Awakens Me",
          "urltitle":"longing_for_life",
          "entry_date":"2015-11-22T12:53:00-05:00",
          "categories":[  
@@ -98,9 +98,9 @@
                "total_entries":9
             }
          ],
-         "media-description":"Worship God today for giving us eternal life. This life is in His Son. He who has the Son has life; he who does not have the Son of God does not have life. To him who is thirsty, come and drink of the water of life freely.",
+            "media-description":"Words and Music by Phil Wickham and Chris Quilala Performed by Khristian Dentley and Northland Worship Team",
          "media-reference":"John 4: 10-18",
-         "media-speaker":"Pastor Matt Heard",
+         "media-speaker":"Khristian Dentley",
          "media-week":"47",
          "media-podcast":true,
          "media-embed":"146719944",
@@ -121,7 +121,9 @@
             "media-youtube-id":"cmUZf9umGnQ",
             "media-vimeo-m3u8-id":"https://player.vimeo.com/external/178381059.m3u8?s=16b9bc7df343e7d96219ab7732d40b1c5b6a4bae",
          "channel":"Blogs",
-         "title":"How to Celebrate Advent With Your Family",
+         "title":"What The World Needs Now",
+            "media-speaker":"Gracie Alexander",
+            "media-description": "Words by Hal David, Music by Burt Bacharach, Performed by Northland Worship Team",
          "urltitle":"how_to_celebrate_advent_with_your_family",
          "entry_date":"2015-11-11T11:29:00-05:00",
          "tags":[  
@@ -153,7 +155,9 @@
             "media-youtube-id":"cmUZf9umGnQ",
             "media-vimeo-m3u8-id":"https://player.vimeo.com/external/174544913.m3u8?s=72a18d38b0cc8755837cc66b1336104d3d02a5e7",
          "channel":"Blogs",
-         "title":"What Is Advent?",
+         "title":"Never Gonna Stop Singing",
+            "media-speaker":"Kaley Simpson",
+            "media-description": "Words and Music by Randy Jackson, Matt Vaughan, and Tom Smith",
          "urltitle":"advent_week_1_what_is_advent",
          "entry_date":"2015-11-13T11:57:00-05:00",
          "categories":[  
@@ -187,7 +191,9 @@
             "media-youtube-id":"cmUZf9umGnQ",
             "media-vimeo-m3u8-id":"https://player.vimeo.com/external/169117248.m3u8?s=e920bec78258ee79dc9b5600206ee910b6d622bc",
          "channel":"Blogs",
-         "title":"Help a Student Go to Christmas Camp",
+         "title":"Salvation’s Tide",
+            "media-speaker":"Danny Kent and Bethany Wilson",
+         "media-description": "Words and Music by Kristian Stanfill, Matt Maher, Jason Ingram, and Brett Younker",
          "urltitle":"help_a_student_go_to_christmas_camp",
          "entry_date":"2015-11-04T13:46:00-05:00",
          "categories":[  
@@ -209,7 +215,8 @@
             "media-youtube-id":"cmUZf9umGnQ",
             "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167944828.m3u8?s=24043fd869e7e46bf8ee94593c1d7fca0dbe8fcb",
          "channel":"Media",
-         "title":"How Great Is Our God (World)",
+         "title":"Doxology (Amen)",
+            "media-description": "Words and Music by Thomas Ken, Arr. by Phil Wickham",
          "urltitle":"how_great_is_our_god_world",
          "entry_date":"2015-11-08T18:45:00-05:00",
          "categories":[  
@@ -224,7 +231,7 @@
                "category_url_title":"highlight_roku"
             }
          ],
-         "media-speaker":"Worship Team",
+         "media-speaker":"Northland Worship Team",
          "media-video":"how_great_is_our_god_tipping_point",
          "media-podcast":true,
          "media-embed":"145506353",
@@ -235,10 +242,12 @@
       {  
          "entry_id":63255,
             "media-youtube-id":"cmUZf9umGnQ",
-            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/152342659.m3u8?s=d5dde6bb48e14a318be7edd9c84b4e5c81eea147",
          "channel":"Blogs",
-         "title":"Christmas House Is Coming!",
+         "title":"Unstoppable God",
+            "media-description": "Words and Music by Chris Brown, Steven Furtick and Wade Joye",
          "urltitle":"christmas_house_is_coming",
+            "media-speaker":"Bryan Royals",
          "entry_date":"2015-10-28T13:18:00-04:00",
          "tags":[  
             {  
@@ -262,9 +271,11 @@
       {  
          "entry_id":63436,
             "media-youtube-id":"cmUZf9umGnQ",
-            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/151568287.m3u8?s=845f2920edc35fd8e32ec1f614b6461ac6824e09",
          "channel":"Blogs",
-         "title":"Does Religion Make Kids Mean?",
+         "title":"Ancient Words",
+            "media-speaker":"Laurie Groves and Michelle Alexander",
+            "media-description": "Words and Music by Lynn Deshazo Performed by Laurie Groves, Michelle Alexander and Bethany Wilson",
          "urltitle":"does_religion_make_kids_mean",
          "entry_date":"2015-11-12T14:25:00-05:00",
          "tags":[  
@@ -304,9 +315,10 @@
       {  
          "entry_id":63416,
             "media-youtube-id":"cmUZf9umGnQ",
-            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/162560012.m3u8?s=9b0dd80b027cf4f666818ec48700e55f1b77d4c4",
          "channel":"Media",
-         "title":"Shackles (Praise You)",
+         "title":"Build Your Kingdom Here",
+         "media-description": "Words and Music by Rend Collective Experiment, Performed by Danny Kent",
          "urltitle":"shackles_praise_you",
          "entry_date":"2015-11-08T18:44:00-05:00",
          "categories":[  
@@ -321,7 +333,7 @@
                "category_url_title":"highlight_roku"
             }
          ],
-         "media-speaker":"Worship Team",
+         "media-speaker":"Danny Kent",
          "media-video":"shackles",
          "media-podcast":true,
          "media-embed":"145442204",
@@ -330,39 +342,13 @@
          "media-live":false
       },
       {  
-         "entry_id":63418,
-            "media-youtube-id":"cmUZf9umGnQ",
-            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
-         "channel":"Media",
-         "title":"Waiting Here For You",
-         "urltitle":"waiting_here_for_you1",
-         "entry_date":"2015-11-08T15:27:00-05:00",
-         "categories":[  
-            {  
-               "category_id":45,
-               "category_name":"Highlights",
-               "category_url_title":"highlights"
-            },
-            {  
-               "category_id":377,
-               "category_name":"highlight_roku",
-               "category_url_title":"highlight_roku"
-            }
-         ],
-         "media-speaker":"Worship Team",
-         "media-video":"waiting_here_for_you_tipping_point",
-         "media-podcast":true,
-         "media-embed":"145435041",
-         "media-image":"http://www.northlandchurch.net/_img/uploads/waiting_here_for_you_tipping_point_thumb.jpg",
-         "media-primary":"hillWideshot.jpg",
-         "media-live":false
-      },
-      {  
          "entry_id":63194,
             "media-youtube-id":"cmUZf9umGnQ",
-            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/167169933.m3u8?s=db17a78b520d8fb7807ca5b6713481514336b482",
+            "media-vimeo-m3u8-id":"https://player.vimeo.com/external/145442204.m3u8?s=677443694f36c3cec0fa9d69282b06dd5bd58e17",
          "channel":"Blogs",
-         "title":"Savor This Podcast With 4 Rivers’ CEO, John Rivers",
+         "title":"Shackles (Praise You)",
+            "media-speaker":"Northland Worship Team",
+         "media-description": "Words and Music by Warryn Campbell, Erica Atkins and Trecina Atkins, Add'l lyrics by Eleanor Tracey",
          "urltitle":"savor_this_podcast_with_4_rivers_founder_john_rivers",
          "entry_date":"2015-10-21T10:50:00-04:00",
          "tags":[  
