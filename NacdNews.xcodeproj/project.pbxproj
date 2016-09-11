@@ -34,6 +34,8 @@
 		4A8E63151D8500D7006F3049 /* GothamHTF-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */; };
 		4A8E63161D8500D7006F3049 /* GothamHTF-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */; };
 		4A8E63171D8500D7006F3049 /* GothamHTF-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */; };
+		4A8E631D1D85BEDA006F3049 /* nacdBlog3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E631C1D85BEDA006F3049 /* nacdBlog3.json */; };
+		4A8E63211D85D1D0006F3049 /* feet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63201D85D1D0006F3049 /* feet.jpg */; };
 		4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675391D76344000BD1325 /* AppDelegate.swift */; };
 		4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6753B1D76344000BD1325 /* FirstViewController.swift */; };
 		4AA675411D76344000BD1325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6753F1D76344000BD1325 /* Main.storyboard */; };
@@ -63,7 +65,6 @@
 		4AC765491D847923000F265F /* cloudsDark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765301D847923000F265F /* cloudsDark.jpg */; };
 		4AC7654A1D847923000F265F /* desertCracks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765311D847923000F265F /* desertCracks.jpg */; };
 		4AC7654B1D847923000F265F /* desertWithTree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765321D847923000F265F /* desertWithTree.jpg */; };
-		4AC7654C1D847923000F265F /* feet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765331D847923000F265F /* feet.jpg */; };
 		4AC7654D1D847923000F265F /* flowerDark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765341D847923000F265F /* flowerDark.jpg */; };
 		4AC7654E1D847923000F265F /* forestWithCutTrees.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765351D847923000F265F /* forestWithCutTrees.jpg */; };
 		4AC7654F1D847923000F265F /* girlByOceanRocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AC765361D847923000F265F /* girlByOceanRocks.jpg */; };
@@ -122,6 +123,8 @@
 		4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-UltraItalic.otf"; path = "Gotham/GothamHTF-UltraItalic.otf"; sourceTree = "<group>"; };
 		4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-XLight.otf"; path = "Gotham/GothamHTF-XLight.otf"; sourceTree = "<group>"; };
 		4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-XLightItalic.otf"; path = "Gotham/GothamHTF-XLightItalic.otf"; sourceTree = "<group>"; };
+		4A8E631C1D85BEDA006F3049 /* nacdBlog3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nacdBlog3.json; sourceTree = "<group>"; };
+		4A8E63201D85D1D0006F3049 /* feet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feet.jpg; sourceTree = "<group>"; };
 		4AA675361D76344000BD1325 /* NacdNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacdNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA675391D76344000BD1325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA6753B1D76344000BD1325 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +156,6 @@
 		4AC765301D847923000F265F /* cloudsDark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudsDark.jpg; sourceTree = "<group>"; };
 		4AC765311D847923000F265F /* desertCracks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desertCracks.jpg; sourceTree = "<group>"; };
 		4AC765321D847923000F265F /* desertWithTree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desertWithTree.jpg; sourceTree = "<group>"; };
-		4AC765331D847923000F265F /* feet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feet.jpg; sourceTree = "<group>"; };
 		4AC765341D847923000F265F /* flowerDark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerDark.jpg; sourceTree = "<group>"; };
 		4AC765351D847923000F265F /* forestWithCutTrees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forestWithCutTrees.jpg; sourceTree = "<group>"; };
 		4AC765361D847923000F265F /* girlByOceanRocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girlByOceanRocks.jpg; sourceTree = "<group>"; };
@@ -213,10 +215,10 @@
 				4AC7652D1D847923000F265F /* bridgeWithClouds.jpg */,
 				4AC7652E1D847923000F265F /* caveHoleOrangeLight.jpg */,
 				4AC7652F1D847923000F265F /* chalkboard.jpg */,
+				4A8E63201D85D1D0006F3049 /* feet.jpg */,
 				4AC765301D847923000F265F /* cloudsDark.jpg */,
 				4AC765311D847923000F265F /* desertCracks.jpg */,
 				4AC765321D847923000F265F /* desertWithTree.jpg */,
-				4AC765331D847923000F265F /* feet.jpg */,
 				4AC765341D847923000F265F /* flowerDark.jpg */,
 				4AC765351D847923000F265F /* forestWithCutTrees.jpg */,
 				4AC765361D847923000F265F /* girlByOceanRocks.jpg */,
@@ -273,7 +275,6 @@
 				4A10C7481D833460009BF9A6 /* podcasts.json */,
 				4AA6755D1D76F49E00BD1325 /* nacdBlog2.json */,
 				4AA6754D1D76348400BD1325 /* FirstTableViewController.swift */,
-				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
 				4AA6754F1D76349800BD1325 /* SecondTableViewController.swift */,
 				4AA675511D7634B300BD1325 /* ThirdTableViewController.swift */,
 				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
@@ -283,11 +284,13 @@
 				4AA675551D7634E600BD1325 /* SecondCell.swift */,
 				4AA675571D7634FC00BD1325 /* ThirdCell.swift */,
 				4AA6753B1D76344000BD1325 /* FirstViewController.swift */,
+				4A8E631C1D85BEDA006F3049 /* nacdBlog3.json */,
 				4AA6753F1D76344000BD1325 /* Main.storyboard */,
 				4AA675421D76344000BD1325 /* Assets.xcassets */,
 				4AA675441D76344000BD1325 /* LaunchScreen.storyboard */,
 				4AA675471D76344000BD1325 /* Info.plist */,
 				4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */,
+				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
 				4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */,
 				4AC7652A1D846D0B000F265F /* VideoDetailViewController.swift */,
 				4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */,
@@ -374,7 +377,6 @@
 				4AC7656C1D84B1FF000F265F /* houseIconHighlighted.png in Resources */,
 				4AC765571D847923000F265F /* hillWideshot.jpg in Resources */,
 				4AC7656D1D84B1FF000F265F /* houseIconUnhighlighted.png in Resources */,
-				4AC7654C1D847923000F265F /* feet.jpg in Resources */,
 				4AC765561D847923000F265F /* highwayIntoForest.jpg in Resources */,
 				4AC7654A1D847923000F265F /* desertCracks.jpg in Resources */,
 				4AC765451D847923000F265F /* boatOverHead.jpg in Resources */,
@@ -384,11 +386,13 @@
 				4A8E63141D8500D7006F3049 /* GothamHTF-Ultra.otf in Resources */,
 				4A8E63171D8500D7006F3049 /* GothamHTF-XLightItalic.otf in Resources */,
 				4A8E630C1D8500C6006F3049 /* GothamHTF-Medium.otf in Resources */,
+				4A8E631D1D85BEDA006F3049 /* nacdBlog3.json in Resources */,
 				4A8E630D1D8500C6006F3049 /* GothamHTF-MediumCondensed.otf in Resources */,
 				4AC7654D1D847923000F265F /* flowerDark.jpg in Resources */,
 				4AC765271D846121000F265F /* Bg5.png in Resources */,
 				4A8E63001D85008F006F3049 /* GothamHTF-BoldCondensed.otf in Resources */,
 				4AC7655F1D848AD9000F265F /* videoPlayIcon.png in Resources */,
+				4A8E63211D85D1D0006F3049 /* feet.jpg in Resources */,
 				4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */,
 				4A8E62FF1D85008F006F3049 /* GothamHTF-Bold.otf in Resources */,
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,

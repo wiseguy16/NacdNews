@@ -14,11 +14,13 @@ class BlogItem
     // let items: [[String: AnyObject]]
     // let itemsDict: [String:AnyObject]
     var isExpanded = false
-    let entry_id: Int
-    let channel: String
     let title: String
-    let urltitle: String
+    let author: String
     let entry_date: String
+    let subText: String
+    let body: String
+    let bioDisclaimer: String
+    
     //   let categories: String
     //   let tags: String
     //  let media_description: String
@@ -52,11 +54,11 @@ class BlogItem
         // itemsDict = myArray[0]
         
         
-        
-        entry_id = myDictionary["entry_id"] as! Int
-        channel = myDictionary["channel"] as! String
+        author = myDictionary["author"] as! String
+        subText = myDictionary["subText"] as! String
+        body = myDictionary["body"] as! String
         title = myDictionary["title"] as! String
-        urltitle = myDictionary["urltitle"] as! String
+        bioDisclaimer = myDictionary["bioDisclaimer"] as! String
         entry_date = myDictionary["entry_date"] as! String
         //  categories = myDictionary["categories"] as! String
         //    tags = myDictionary["tags"] as! String

@@ -95,18 +95,18 @@ class SecondTableViewController: UITableViewController
 //        {
 //            print(aBlog.isExpanded)
  //
-        let str = aBlog.channel
-        let nsString = str as NSString
-        if nsString.length > 0
-        {
-           cell.secondMiscLabel.text? = nsString.substringWithRange(NSRange(location: 0, length: nsString.length > 160 ? 160 : nsString.length))
-        }
-//    }
-      else
-        {
-        cell.secondMiscLabel.text? = aBlog.channel
-
-        }
+//        let str = aBlog.channel
+//        let nsString = str as NSString
+//        if nsString.length > 0
+//        {
+//           cell.secondMiscLabel.text? = nsString.substringWithRange(NSRange(location: 0, length: nsString.length > 160 ? 160 : nsString.length))
+//        }
+////    }
+//      else
+//        {
+//        cell.secondMiscLabel.text? = aBlog.channel
+//
+//        }
         
         
 

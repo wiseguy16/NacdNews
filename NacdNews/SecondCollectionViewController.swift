@@ -68,42 +68,44 @@ class SecondCollectionViewController: UICollectionViewController
         // Configure the cell
         
         let aBlog = blogItems[indexPath.row]
-        var imageData: NSData
+       // var imageData: NSData
         
         cell.secondTitleLabel.text = aBlog.title
         
-        let dateToShow = aBlog.entry_date
-        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
-        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
-        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
+//        let dateToShow = aBlog.entry_date
+//        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
+//        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
+//        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
         
-        cell.secondDescriptionLabel.text = formattedDate
+        cell.secondDescriptionLabel.text = aBlog.author
+       // cell.secondMiscLabel.text = aBlog.bioDisclaimer
+        cell.secondImageView.image = UIImage(named: aBlog.blog_primary)
         
-        if let firstURL = NSURL(string: aBlog.blog_primary) {
-            
-            
-            
-            // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
-            imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
-            cell.secondImageView.image = UIImage.init(data: imageData)
-        }
+//        if let firstURL = NSURL(string: aBlog.blog_primary) {
+//            
+//            
+//            
+//            // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
+//            imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
+//            cell.secondImageView.image = UIImage.init(data: imageData)
+//        }
         
         //        if aBlog.isExpanded == true
         //        {
         //            print(aBlog.isExpanded)
         //
-        let str = aBlog.channel
-        let nsString = str as NSString
-        if nsString.length > 0
-        {
-            cell.secondMiscLabel.text? = nsString.substringWithRange(NSRange(location: 0, length: nsString.length > 160 ? 160 : nsString.length))
-        }
-            //    }
-        else
-        {
-            cell.secondMiscLabel.text? = aBlog.channel
-            
-        }
+//        let str = aBlog.body
+//        let nsString = str as NSString
+//        if nsString.length > 0
+//        {
+//            cell.secondMiscLabel.text? = nsString.substringWithRange(NSRange(location: 0, length: nsString.length > 160 ? 160 : nsString.length))
+//        }
+//            //    }
+//        else
+//        {
+//            cell.secondMiscLabel.text? = aBlog.bioDisclaimer
+//            
+//        }
 
         
         
@@ -115,7 +117,7 @@ class SecondCollectionViewController: UICollectionViewController
     {
         
         
-        let filePath = NSBundle.mainBundle().pathForResource("nacdBlog2", ofType: "json")  //main.path(forResource: "nacdSample3", ofType: "json")
+        let filePath = NSBundle.mainBundle().pathForResource("nacdBlog3", ofType: "json")  //main.path(forResource: "nacdSample3", ofType: "json")
         let dataFromFile2 = NSData(contentsOfFile: filePath!)                   //      (contentsOf: URL(fileURLWithPath: filePath!))
         do
         {
@@ -147,17 +149,17 @@ class SecondCollectionViewController: UICollectionViewController
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
     {
         
-        let aBlog = blogItems[indexPath.row] //as! BlogItem
-        print("\(aBlog.isExpanded)")
-        // aBlog.isExpanded = true ? false: true
-        aBlog.isExpanded = !aBlog.isExpanded
-        
-        if aBlog.isExpanded == false
-        {
+       let aBlog = blogItems[indexPath.row] //as! BlogItem
+//        print("\(aBlog.isExpanded)")
+//        // aBlog.isExpanded = true ? false: true
+//        aBlog.isExpanded = !aBlog.isExpanded
+//        
+//        if aBlog.isExpanded == false
+//        {
             let detailVC = self.storyboard?.instantiateViewControllerWithIdentifier("BlogDetailViewController") as! BlogDetailViewController
             navigationController?.pushViewController(detailVC, animated: true)
             detailVC.aBlogItem = aBlog
-        }
+  //      }
         
     }
 

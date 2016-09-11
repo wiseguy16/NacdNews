@@ -92,6 +92,10 @@ class ThirdCollectionViewController: UICollectionViewController
     @IBAction func playPauseTapped(sender: UIButton)
     {
         isPlaying = !isPlaying
+//        if audioPlayer.play()
+//        {
+//          audioPlayer.stop()
+//        }
         let contentView = sender.superview
         let cell = contentView?.superview as! ThirdCollectionViewCell
         let thisIndexPath = collectionView?.indexPathForCell(cell)
@@ -118,7 +122,8 @@ class ThirdCollectionViewController: UICollectionViewController
            audioPlayer.stop()
         }
         
-        collectionView?.reloadItemsAtIndexPaths([thisIndexPath!])
+        collectionView?.reloadData()
+       // collectionView?.reloadItemsAtIndexPaths([thisIndexPath!])
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
