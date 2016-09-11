@@ -18,6 +18,7 @@ class Podcast
     let entry_date: String
     let speaker: String
     let mediaFile: String
+    let podcastImage: String
     
     
     init(myDictionary: [String: AnyObject])
@@ -29,6 +30,7 @@ class Podcast
         entry_date = myDictionary["entry_date"] as! String
         speaker = myDictionary["media-speaker"] as! String
         mediaFile = myDictionary["media-file"] as! String
+        podcastImage = myDictionary["media-primary"] as! String
     }
     
 }

@@ -15,7 +15,7 @@ class BlogDetailViewController: UIViewController {
     @IBOutlet weak var contentView: UIView!
     
     var aBlogItem: BlogItem!
-    var shareURL: NSURL!
+    var shareBody: String?
     
     @IBOutlet weak var blogImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -31,6 +31,7 @@ class BlogDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        shareBody = aBlogItem.body
         //blogScrollView.contentSize = CGSizeMake(400, 2300)
         configureView()
         
@@ -73,19 +74,26 @@ class BlogDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func shareTapped(sender: UIBarButtonItem)
-    {
-       // let myData = aDrawing.theImage!
-       // let myImage = UIImage(data: myData)
-        
-        // detailDrawingView.image = myImage
-        
-        
-        let vc = UIActivityViewController(activityItems: [shareURL!], applicationActivities: nil)
-        self.presentViewController(vc, animated: true, completion: nil)
-    }
+//    @IBAction func shareTapped(sender: UIBarButtonItem)
+//    {
+//       // let myData = aDrawing.theImage!
+//       // let myImage = UIImage(data: myData)
+//        
+//        // detailDrawingView.image = myImage
+//        
+//        
+//        let vc = UIActivityViewController(activityItems: [shareURL!], applicationActivities: nil)
+//        self.presentViewController(vc, animated: true, completion: nil)
+//    }
 
     
+    @IBAction func sharingTapped(sender: UIButton)
+    {
+        let vc = UIActivityViewController(activityItems: [shareBody!], applicationActivities: nil)
+        self.presentViewController(vc, animated: true, completion: nil)
+        
+        
+    }
 
     /*
     // MARK: - Navigation

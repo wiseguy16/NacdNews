@@ -105,7 +105,7 @@
          "media-podcast":true,
          "media-embed":"146719944",
          "media-image":"girlByOceanRocks.jpg",
-         "media-primary":"girlByOceanRocks.jpg",
+         "media-primary":"guyOnCliff.jpg",
          "media-live":false,
          "media-unit":{  
             "entry_id":63486,
@@ -266,7 +266,7 @@
                "total_entries":2
             }
          ],
-         "media-primary":"boatOverHead.jpg"
+         "media-primary":"desertCracks.jpg"
       },
       {  
          "entry_id":63436,

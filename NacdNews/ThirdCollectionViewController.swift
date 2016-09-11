@@ -138,14 +138,14 @@ class ThirdCollectionViewController: UICollectionViewController
         
         cell.titleLabel.text = aPodcast.title
         cell.speakerLabel.text = aPodcast.speaker
-        cell.podcastImageView.image = UIImage(named: "PlaceholderImage.png")
+        cell.podcastImageView.image = UIImage(named: aPodcast.podcastImage)
         if isPlaying
         {
-        cell.playPauseButton.titleLabel?.text = "Pause"
+        cell.playPauseButton.imageView?.image = UIImage(named: "podPauseIcon.png")
         }
         else
         {
-            cell.playPauseButton.titleLabel?.text = "Play"
+            cell.playPauseButton.imageView?.image = UIImage(named: "podPlayIcon.png")
         }
       //  cell.podcastImageView = ??
         
