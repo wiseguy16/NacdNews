@@ -109,7 +109,7 @@ class BlogDetailViewController: UIViewController {
     {
         titleLabel.text = aBlogItem.title
         authorLabel.text = aBlogItem.author
-        dateLabel.text = "08-12-2016"
+        dateLabel.text = aBlogItem.entry_date
         subTextLabel.text = aBlogItem.subText
         bodyLabel.text = aBlogItem.body
         bioLabel.text = aBlogItem.bioDisclaimer
