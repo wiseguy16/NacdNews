@@ -18,6 +18,22 @@
 		4A10C74B1D83393A009BF9A6 /* 09042016_Sermon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C74A1D83393A009BF9A6 /* 09042016_Sermon.mp3 */; };
 		4A10C74D1D833963009BF9A6 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10C74C1D833963009BF9A6 /* Podcast.swift */; };
 		4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A10C74E1D8342C6009BF9A6 /* PlaceholderImage.png */; };
+		4A8E62FD1D85008F006F3049 /* GothamHTF-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E62F81D85008F006F3049 /* GothamHTF-Black.otf */; };
+		4A8E62FE1D85008F006F3049 /* GothamHTF-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E62F91D85008F006F3049 /* GothamHTF-BlackItalic.otf */; };
+		4A8E62FF1D85008F006F3049 /* GothamHTF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E62FA1D85008F006F3049 /* GothamHTF-Bold.otf */; };
+		4A8E63001D85008F006F3049 /* GothamHTF-BoldCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E62FB1D85008F006F3049 /* GothamHTF-BoldCondensed.otf */; };
+		4A8E63011D85008F006F3049 /* GothamHTF-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E62FC1D85008F006F3049 /* GothamHTF-BoldItalic.otf */; };
+		4A8E63031D8500AF006F3049 /* GothamHTF-BookCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63021D8500AF006F3049 /* GothamHTF-BookCondensed.otf */; };
+		4A8E63091D8500C6006F3049 /* GothamHTF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63041D8500C6006F3049 /* GothamHTF-Light.otf */; };
+		4A8E630A1D8500C6006F3049 /* GothamHTF-LightCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63051D8500C6006F3049 /* GothamHTF-LightCondensed.otf */; };
+		4A8E630B1D8500C6006F3049 /* GothamHTF-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63061D8500C6006F3049 /* GothamHTF-LightItalic.otf */; };
+		4A8E630C1D8500C6006F3049 /* GothamHTF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63071D8500C6006F3049 /* GothamHTF-Medium.otf */; };
+		4A8E630D1D8500C6006F3049 /* GothamHTF-MediumCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63081D8500C6006F3049 /* GothamHTF-MediumCondensed.otf */; };
+		4A8E63131D8500D7006F3049 /* GothamHTF-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E630E1D8500D7006F3049 /* GothamHTF-ThinItalic.otf */; };
+		4A8E63141D8500D7006F3049 /* GothamHTF-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E630F1D8500D7006F3049 /* GothamHTF-Ultra.otf */; };
+		4A8E63151D8500D7006F3049 /* GothamHTF-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */; };
+		4A8E63161D8500D7006F3049 /* GothamHTF-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */; };
+		4A8E63171D8500D7006F3049 /* GothamHTF-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */; };
 		4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675391D76344000BD1325 /* AppDelegate.swift */; };
 		4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6753B1D76344000BD1325 /* FirstViewController.swift */; };
 		4AA675411D76344000BD1325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6753F1D76344000BD1325 /* Main.storyboard */; };
@@ -90,6 +106,22 @@
 		4A10C74A1D83393A009BF9A6 /* 09042016_Sermon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 09042016_Sermon.mp3; sourceTree = "<group>"; };
 		4A10C74C1D833963009BF9A6 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		4A10C74E1D8342C6009BF9A6 /* PlaceholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderImage.png; sourceTree = "<group>"; };
+		4A8E62F81D85008F006F3049 /* GothamHTF-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-Black.otf"; path = "Gotham/GothamHTF-Black.otf"; sourceTree = "<group>"; };
+		4A8E62F91D85008F006F3049 /* GothamHTF-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-BlackItalic.otf"; path = "Gotham/GothamHTF-BlackItalic.otf"; sourceTree = "<group>"; };
+		4A8E62FA1D85008F006F3049 /* GothamHTF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-Bold.otf"; path = "Gotham/GothamHTF-Bold.otf"; sourceTree = "<group>"; };
+		4A8E62FB1D85008F006F3049 /* GothamHTF-BoldCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-BoldCondensed.otf"; path = "Gotham/GothamHTF-BoldCondensed.otf"; sourceTree = "<group>"; };
+		4A8E62FC1D85008F006F3049 /* GothamHTF-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-BoldItalic.otf"; path = "Gotham/GothamHTF-BoldItalic.otf"; sourceTree = "<group>"; };
+		4A8E63021D8500AF006F3049 /* GothamHTF-BookCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-BookCondensed.otf"; path = "Gotham/GothamHTF-BookCondensed.otf"; sourceTree = "<group>"; };
+		4A8E63041D8500C6006F3049 /* GothamHTF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-Light.otf"; path = "Gotham/GothamHTF-Light.otf"; sourceTree = "<group>"; };
+		4A8E63051D8500C6006F3049 /* GothamHTF-LightCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-LightCondensed.otf"; path = "Gotham/GothamHTF-LightCondensed.otf"; sourceTree = "<group>"; };
+		4A8E63061D8500C6006F3049 /* GothamHTF-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-LightItalic.otf"; path = "Gotham/GothamHTF-LightItalic.otf"; sourceTree = "<group>"; };
+		4A8E63071D8500C6006F3049 /* GothamHTF-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-Medium.otf"; path = "Gotham/GothamHTF-Medium.otf"; sourceTree = "<group>"; };
+		4A8E63081D8500C6006F3049 /* GothamHTF-MediumCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-MediumCondensed.otf"; path = "Gotham/GothamHTF-MediumCondensed.otf"; sourceTree = "<group>"; };
+		4A8E630E1D8500D7006F3049 /* GothamHTF-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-ThinItalic.otf"; path = "Gotham/GothamHTF-ThinItalic.otf"; sourceTree = "<group>"; };
+		4A8E630F1D8500D7006F3049 /* GothamHTF-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-Ultra.otf"; path = "Gotham/GothamHTF-Ultra.otf"; sourceTree = "<group>"; };
+		4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-UltraItalic.otf"; path = "Gotham/GothamHTF-UltraItalic.otf"; sourceTree = "<group>"; };
+		4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-XLight.otf"; path = "Gotham/GothamHTF-XLight.otf"; sourceTree = "<group>"; };
+		4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamHTF-XLightItalic.otf"; path = "Gotham/GothamHTF-XLightItalic.otf"; sourceTree = "<group>"; };
 		4AA675361D76344000BD1325 /* NacdNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacdNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA675391D76344000BD1325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA6753B1D76344000BD1325 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -216,9 +248,25 @@
 		4AA675381D76344000BD1325 /* NacdNews */ = {
 			isa = PBXGroup;
 			children = (
+				4A8E62F81D85008F006F3049 /* GothamHTF-Black.otf */,
+				4A8E62F91D85008F006F3049 /* GothamHTF-BlackItalic.otf */,
+				4A8E62FA1D85008F006F3049 /* GothamHTF-Bold.otf */,
+				4A8E62FB1D85008F006F3049 /* GothamHTF-BoldCondensed.otf */,
+				4A8E62FC1D85008F006F3049 /* GothamHTF-BoldItalic.otf */,
 				4AC7656F1D84FF2D000F265F /* GothamHTF-Book.otf */,
+				4A8E63021D8500AF006F3049 /* GothamHTF-BookCondensed.otf */,
 				4AC765711D84FF41000F265F /* GothamHTF-BookItalic.otf */,
+				4A8E63041D8500C6006F3049 /* GothamHTF-Light.otf */,
+				4A8E63051D8500C6006F3049 /* GothamHTF-LightCondensed.otf */,
+				4A8E63061D8500C6006F3049 /* GothamHTF-LightItalic.otf */,
+				4A8E63071D8500C6006F3049 /* GothamHTF-Medium.otf */,
+				4A8E63081D8500C6006F3049 /* GothamHTF-MediumCondensed.otf */,
 				4AC765731D84FF8D000F265F /* GothamHTF-Thin.otf */,
+				4A8E630E1D8500D7006F3049 /* GothamHTF-ThinItalic.otf */,
+				4A8E630F1D8500D7006F3049 /* GothamHTF-Ultra.otf */,
+				4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */,
+				4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */,
+				4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */,
 				4AC765081D839842000F265F /* Gotham */,
 				4AA675391D76344000BD1325 /* AppDelegate.swift */,
 				4AA6755B1D763ED700BD1325 /* nacdVideos.json */,
@@ -332,27 +380,39 @@
 				4AC765451D847923000F265F /* boatOverHead.jpg in Resources */,
 				4AC7655C1D847923000F265F /* usWithLights.jpg in Resources */,
 				4AA675461D76344000BD1325 /* LaunchScreen.storyboard in Resources */,
+				4A8E62FE1D85008F006F3049 /* GothamHTF-BlackItalic.otf in Resources */,
+				4A8E63141D8500D7006F3049 /* GothamHTF-Ultra.otf in Resources */,
+				4A8E63171D8500D7006F3049 /* GothamHTF-XLightItalic.otf in Resources */,
+				4A8E630C1D8500C6006F3049 /* GothamHTF-Medium.otf in Resources */,
+				4A8E630D1D8500C6006F3049 /* GothamHTF-MediumCondensed.otf in Resources */,
 				4AC7654D1D847923000F265F /* flowerDark.jpg in Resources */,
 				4AC765271D846121000F265F /* Bg5.png in Resources */,
+				4A8E63001D85008F006F3049 /* GothamHTF-BoldCondensed.otf in Resources */,
 				4AC7655F1D848AD9000F265F /* videoPlayIcon.png in Resources */,
 				4A10C74F1D8342C6009BF9A6 /* PlaceholderImage.png in Resources */,
+				4A8E62FF1D85008F006F3049 /* GothamHTF-Bold.otf in Resources */,
 				4AA675431D76344000BD1325 /* Assets.xcassets in Resources */,
 				4AC765611D84A150000F265F /* LogoMain.png in Resources */,
 				4AC765541D847923000F265F /* guyLookingToSun.jpg in Resources */,
 				4AC765461D847923000F265F /* bridgeWithClouds.jpg in Resources */,
 				4AC765551D847923000F265F /* guyOnCliff.jpg in Resources */,
 				4AC765721D84FF41000F265F /* GothamHTF-BookItalic.otf in Resources */,
+				4A8E63031D8500AF006F3049 /* GothamHTF-BookCondensed.otf in Resources */,
 				4AC765701D84FF2D000F265F /* GothamHTF-Book.otf in Resources */,
 				4AC7656A1D84B1FF000F265F /* micIconUnhighlighted.png in Resources */,
+				4A8E63151D8500D7006F3049 /* GothamHTF-UltraItalic.otf in Resources */,
 				4A10C74B1D83393A009BF9A6 /* 09042016_Sermon.mp3 in Resources */,
+				4A8E630A1D8500C6006F3049 /* GothamHTF-LightCondensed.otf in Resources */,
 				4AC7656B1D84B1FF000F265F /* videoIconUnhighlighted.png in Resources */,
 				4AC7654E1D847923000F265F /* forestWithCutTrees.jpg in Resources */,
+				4A8E63091D8500C6006F3049 /* GothamHTF-Light.otf in Resources */,
 				4AC765511D847923000F265F /* globe.jpg in Resources */,
 				4AC765631D84A563000F265F /* rocketSquare.png in Resources */,
 				4AC765741D84FF8D000F265F /* GothamHTF-Thin.otf in Resources */,
 				4AC765691D84B1FF000F265F /* blogIconUnhighlighted.png in Resources */,
 				4AA675411D76344000BD1325 /* Main.storyboard in Resources */,
 				4AC765171D83A24E000F265F /* BgCopy.png in Resources */,
+				4A8E63131D8500D7006F3049 /* GothamHTF-ThinItalic.otf in Resources */,
 				4AC765501D847923000F265F /* girlByWater.jpg in Resources */,
 				4AC7650D1D839E55000F265F /* BgLaunch2x.png in Resources */,
 				4AC765591D847923000F265F /* peopleInCoffeShop.jpg in Resources */,
@@ -361,10 +421,14 @@
 				4AC7654B1D847923000F265F /* desertWithTree.jpg in Resources */,
 				4AC7654F1D847923000F265F /* girlByOceanRocks.jpg in Resources */,
 				4AC7655D1D847923000F265F /* valleyWithSunset.jpg in Resources */,
+				4A8E63161D8500D7006F3049 /* GothamHTF-XLight.otf in Resources */,
+				4A8E630B1D8500C6006F3049 /* GothamHTF-LightItalic.otf in Resources */,
 				4AC765581D847923000F265F /* laserLightsOnRoof.jpg in Resources */,
 				4A10C7491D833460009BF9A6 /* podcasts.json in Resources */,
 				4AA6755E1D76F49E00BD1325 /* nacdBlog2.json in Resources */,
 				4AC765481D847923000F265F /* chalkboard.jpg in Resources */,
+				4A8E63011D85008F006F3049 /* GothamHTF-BoldItalic.otf in Resources */,
+				4A8E62FD1D85008F006F3049 /* GothamHTF-Black.otf in Resources */,
 				4AC765491D847923000F265F /* cloudsDark.jpg in Resources */,
 				4AC7655B1D847923000F265F /* surfRider.jpg in Resources */,
 				4AC765471D847923000F265F /* caveHoleOrangeLight.jpg in Resources */,
