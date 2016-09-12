@@ -20,15 +20,13 @@
             <string>GothamHTF-Book</string>
             <string>GothamHTF-Book</string>
             <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
+            <string>GothamHTF-Book</string>
         </mutableArray>
         <mutableArray key="GothamHTF-BookItalic.otf">
             <string>GothamHTF-BookItalic</string>
             <string>GothamHTF-BookItalic</string>
-        </mutableArray>
-        <mutableArray key="GothamHTF-Light.otf">
-            <string>GothamHTF-Light</string>
-            <string>GothamHTF-Light</string>
-            <string>GothamHTF-Light</string>
         </mutableArray>
         <mutableArray key="GothamHTF-Medium.otf">
             <string>GothamHTF-Medium</string>
@@ -144,51 +142,51 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qm1-9w-khi">
-                                                <rect key="frame" x="20" y="263" width="560" height="14"/>
+                                                <rect key="frame" x="20" y="261" width="560" height="14"/>
                                                 <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="13"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BH6-pQ-gfb">
-                                                <rect key="frame" x="20" y="361" width="560" height="16.5"/>
+                                                <rect key="frame" x="20" y="359" width="560" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="15"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAh-vP-lkM">
-                                                <rect key="frame" x="20" y="398" width="560" height="15.5"/>
+                                                <rect key="frame" x="20" y="396" width="560" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="GothamHTF-Medium" family="Gotham HTF" pointSize="14"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5V-KT-RMF">
-                                                <rect key="frame" x="20" y="240" width="560" height="15"/>
-                                                <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="14"/>
+                                                <rect key="frame" x="20" y="240" width="560" height="13"/>
+                                                <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="12"/>
                                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubText" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RF-Kk-d1w">
-                                                <rect key="frame" x="20" y="337" width="560" height="15.5"/>
+                                                <rect key="frame" x="20" y="335" width="560" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="GothamHTF-BookItalic" family="Gotham HTF" pointSize="14"/>
                                                 <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFr-I4-PgP">
-                                                <rect key="frame" x="20" y="292" width="24" height="24"/>
+                                                <rect key="frame" x="20" y="290" width="24" height="24"/>
                                                 <state key="normal" image="facebookIcon.png"/>
                                                 <connections>
                                                     <action selector="sharingTapped:" destination="aXI-Wj-Zbw" eventType="touchUpInside" id="J4V-mk-nOr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVv-1q-e3n">
-                                                <rect key="frame" x="64" y="292" width="29" height="24"/>
+                                                <rect key="frame" x="64" y="290" width="29" height="24"/>
                                                 <state key="normal" image="twitterIcon.png"/>
                                                 <connections>
                                                     <action selector="sharingTapped:" destination="aXI-Wj-Zbw" eventType="touchUpInside" id="4Fe-Tv-bxc"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmC-xo-1VB">
-                                                <rect key="frame" x="113" y="293" width="31" height="22"/>
+                                                <rect key="frame" x="113" y="291" width="31" height="22"/>
                                                 <state key="normal" image="mailIcon.png"/>
                                                 <connections>
                                                     <action selector="sharingTapped:" destination="aXI-Wj-Zbw" eventType="touchUpInside" id="7ya-1O-49T"/>
@@ -325,7 +323,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIs-wl-0Ii">
                                             <rect key="frame" x="8" y="258.5" width="284" height="13"/>
-                                            <fontDescription key="fontDescription" name="GothamHTF-Light" family="Gotham HTF" pointSize="12"/>
+                                            <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="12"/>
                                             <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -394,8 +392,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wk2-WD-Tzt">
                                         <rect key="frame" x="0.0" y="0.0" width="556" height="156.5"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd4-Yy-fe7">
-                                        <rect key="frame" x="8" y="311" width="540" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd4-Yy-fe7">
+                                        <rect key="frame" x="8" y="325.5" width="540" height="34.5"/>
                                         <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="32"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -408,7 +406,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-ty-Aqh">
                                         <rect key="frame" x="8" y="403" width="540" height="13"/>
-                                        <fontDescription key="fontDescription" name="GothamHTF-Light" family="Gotham HTF" pointSize="12"/>
+                                        <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="12"/>
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -517,7 +515,7 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOy-bq-KTp">
                                             <rect key="frame" x="8" y="257" width="284" height="13"/>
-                                            <fontDescription key="fontDescription" name="GothamHTF-Light" family="Gotham HTF" pointSize="12"/>
+                                            <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="12"/>
                                             <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -665,8 +663,8 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fX-uO-0hU">
-                                            <rect key="frame" x="120" y="58" width="39" height="16"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fX-uO-0hU">
+                                            <rect key="frame" x="120" y="60" width="30" height="12"/>
                                             <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="11"/>
                                             <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>

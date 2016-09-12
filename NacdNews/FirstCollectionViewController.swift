@@ -23,13 +23,6 @@ class FirstCollectionViewController: UICollectionViewController
         myFormatter.dateStyle = .ShortStyle
         myFormatter.timeStyle = .NoStyle
         loadMediaItems()
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-      //  self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,14 +44,12 @@ class FirstCollectionViewController: UICollectionViewController
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
     {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        // #warning Incomplete implementation, return the number of items
         return mediaItems.count
     }
 
@@ -69,30 +60,15 @@ class FirstCollectionViewController: UICollectionViewController
         // Configure the cell
         
         let aMediaThing = mediaItems[indexPath.row]
-        //var imageData: NSData
         
         cell.firstTitleLabel.text = aMediaThing.title
         
-//        let dateToShow = aMediaThing.entry_date
-//        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
-//        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
-//        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
+
         
-        //cell.firstDescriptionLabel.text = formattedDate
-        cell.firstDescriptionLabel.text = aMediaThing.media_speaker
+        cell.firstDescriptionLabel.text = aMediaThing.media_speaker.uppercaseString
         cell.firstImageView.image = UIImage(named: aMediaThing.media_image)
         
-        //  do
-        //  {
-    //    if let firstURL = NSURL(string: aMediaThing.media_image)
-    //    {
-            
-            
-            
-            // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
-    //        imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
-    //        cell.firstImageView.image = UIImage.init(data: imageData)
-    //    }
+ 
     
         return cell
     }
@@ -127,7 +103,6 @@ class FirstCollectionViewController: UICollectionViewController
                 
                 guard let jsonDict = jsonData as? [String: AnyObject],
                     let itemsArray = jsonDict["items"] as? [[String: AnyObject]]
-                    //let itemsArray = items1["item"] as? [[String: Any]]
                     else
                 {
                     return
@@ -138,7 +113,6 @@ class FirstCollectionViewController: UICollectionViewController
                     let aMediaItem = MediaItem(myDictionary: anItemDict)
                     mediaItems.append(aMediaItem)
                 }
-                // var finalItems = [MediaItem]()
             }
             catch let error as NSError {
                 print(error)

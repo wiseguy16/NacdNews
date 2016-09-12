@@ -32,17 +32,8 @@ class BlogDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         shareBody = aBlogItem.body
-        //blogScrollView.contentSize = CGSizeMake(400, 2300)
         configureView()
         
-        //  h ttp://northlandchurch.net/blogs/journey_by_becky_hunter/
-//        
-//        let tempString = "http://northlandchurch.net/blogs/\(aBlogItem.urltitle)"
-//        shareURL = NSURL(string: tempString)
-//        let request = NSURLRequest(URL: shareURL!)
-//        awesomeWebView.loadRequest(request)
-//        
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillLayoutSubviews()
@@ -53,39 +44,12 @@ class BlogDetailViewController: UIViewController {
         self.blogScrollView.contentSize.height = 3000; // Or whatever you want it to be.
     }
     
-//    override func viewDidLayoutSubviews()
-//    {
-//        let scrollViewBounds = blogScrollView.bounds
-//        let contentViewBounds = contentView.bounds
-//        
-//        var scrollViewInsets = UIEdgeInsetsZero
-//        scrollViewInsets.top = scrollViewBounds.size.height/2.0;
-//        scrollViewInsets.top -= contentViewBounds.size.height/2.0;
-//        
-//        scrollViewInsets.bottom = scrollViewBounds.size.height/2.0
-//        scrollViewInsets.bottom -= contentViewBounds.size.height/2.0;
-//        scrollViewInsets.bottom += 1
-//        
-//        blogScrollView.contentInset = scrollViewInsets
-//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-//    @IBAction func shareTapped(sender: UIBarButtonItem)
-//    {
-//       // let myData = aDrawing.theImage!
-//       // let myImage = UIImage(data: myData)
-//        
-//        // detailDrawingView.image = myImage
-//        
-//        
-//        let vc = UIActivityViewController(activityItems: [shareURL!], applicationActivities: nil)
-//        self.presentViewController(vc, animated: true, completion: nil)
-//    }
-
     
     @IBAction func sharingTapped(sender: UIButton)
     {
@@ -108,26 +72,12 @@ class BlogDetailViewController: UIViewController {
     func configureView()
     {
         titleLabel.text = aBlogItem.title
-        authorLabel.text = aBlogItem.author
+        authorLabel.text = aBlogItem.author.uppercaseString
         dateLabel.text = aBlogItem.entry_date
         subTextLabel.text = aBlogItem.subText
         bodyLabel.text = aBlogItem.body
         bioLabel.text = aBlogItem.bioDisclaimer
         blogImage.image = UIImage(named: aBlogItem.blog_primary)
-        
-        
-//        videoTitleLabel.text = aVideo.title
-//        videoDescriptionLabel.text = aVideo.media_description
-//        // videoMiscLabel.text = aVideo.urltitle
-//        videoDetailImageView.image = UIImage(named: aVideo.media_image)
-//        
-//        let dateToShow = aVideo.entry_date
-//        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
-//        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
-//        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
-//        videoMiscLabel.text = formattedDate
-//        //    videoDetailImageView.image = UIImage(named: "\(aVideo.musicianImage).jpg")
-//        //    detailFinePrintLabel.text = "Source: 'List of the highest grossing concert tours'. The list for the tour was obtained from Billboard and Pollstar with sales information from promoters and managers who organized the tours."
         
     }
 

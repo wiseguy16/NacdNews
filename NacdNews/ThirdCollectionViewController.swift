@@ -22,15 +22,8 @@ class ThirdCollectionViewController: UICollectionViewController
 
     override func viewDidLoad() {
         super.viewDidLoad()
-      //    self.collectionView?.backgroundColor = UIColor(patternImage: UIImage(named: "BgLaunch.png")!)
-//        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
-//        backgroundImage.image = UIImage(named: "BgLaunch.png")
-//        self.view.insertSubview(backgroundImage, atIndex: 0)
-        
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BgLaunch2x.png")!)
         
         
-       // self.collectionView?.backgroundView = bgImage
         
         NSKernAttributeName.capitalizedString
         
@@ -39,24 +32,10 @@ class ThirdCollectionViewController: UICollectionViewController
         
         loadPodcasts()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-       // self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
+      
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(animated: Bool)
-    {
-//        let bgImage = UIImageView();
-//        bgImage.image = UIImage(named: "BgLaunch.png");
-//        bgImage.contentMode = .ScaleToFill
-//        
-//        
-//        self.collectionView?.backgroundView = bgImage
-    }
     
    
     override func didReceiveMemoryWarning() {
@@ -78,29 +57,22 @@ class ThirdCollectionViewController: UICollectionViewController
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
     {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        // #warning Incomplete implementation, return the number of items
         return podcastItems.count
     }
     
     @IBAction func playPauseTapped(sender: UIButton)
     {
         isPlaying = !isPlaying
-//        if audioPlayer.play()
-//        {
-//          audioPlayer.stop()
-//        }
         let contentView = sender.superview
         let cell = contentView?.superview as! ThirdCollectionViewCell
         let thisIndexPath = collectionView?.indexPathForCell(cell)
         let aPodcast = podcastItems[thisIndexPath!.row]
-        //sender.c = "To"
         print("This cell")
         
         let audioString = aPodcast.mediaFile
@@ -123,7 +95,7 @@ class ThirdCollectionViewController: UICollectionViewController
         }
         
         collectionView?.reloadData()
-       // collectionView?.reloadItemsAtIndexPaths([thisIndexPath!])
+        collectionView?.reloadItemsAtIndexPaths([thisIndexPath!])
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
@@ -134,10 +106,9 @@ class ThirdCollectionViewController: UICollectionViewController
         
         
         let aPodcast = podcastItems[indexPath.row]
-      //  var imageData: NSData
         
         cell.titleLabel.text = aPodcast.title
-        cell.speakerLabel.text = aPodcast.speaker
+        cell.speakerLabel.text = aPodcast.speaker.uppercaseString
         cell.podcastImageView.image = UIImage(named: aPodcast.podcastImage)
         if isPlaying
         {
@@ -147,41 +118,19 @@ class ThirdCollectionViewController: UICollectionViewController
         {
             cell.playPauseButton.imageView?.image = UIImage(named: "podPlayIcon.png")
         }
-      //  cell.podcastImageView = ??
+  
         
-//        cell.firstTitleLabel.text = aMediaThing.title
-//        
-//        let dateToShow = aMediaThing.entry_date
-//        let formattedDateArray = dateToShow.componentsSeparatedByString("-")     //.components(separatedBy: "-")
-//        let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
-//        let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
-//        
-//        cell.firstDescriptionLabel.text = formattedDate
-//        
-//        //  do
-//        //  {
-//        if let firstURL = NSURL(string: aMediaThing.media_image)
-//        {
-//            
-//            
-//            
-//            // let dataFromFile2 = try? Data(contentsOf: URL(fileURLWithPath: filePath!))
-//            imageData = NSData(contentsOfURL: firstURL)!   //(contentsOf: (firstURL)!)
-//            cell.firstImageView.image = UIImage.init(data: imageData)
-//        }
-//        //            catch let error {
-//        //                print(error)
-//        //            }
-//        //
-//        //    else {
-//        //        return
-//        //    }
-//        // }
-//        
-//        
-//        // cell.firstImageView.image = UIImage.init(data: imageData)
-//        cell.firstMiscLabel.text = aMediaThing.channel
-
+        cell.layer.shadowOffset = CGSizeMake(10, 10)
+        cell.layer.shadowColor = UIColor.blackColor().CGColor
+        cell.layer.shadowRadius = 3
+        cell.layer.shadowOpacity = 0.14
+        
+        // Maybe just me, but I had to add it to work:
+        cell.clipsToBounds = false
+        
+        let shadowFrame: CGRect = (cell.layer.bounds)
+        let shadowPath: CGPathRef = UIBezierPath(rect: shadowFrame).CGPath
+        cell.layer.shadowPath = shadowPath
     
         return cell
     }

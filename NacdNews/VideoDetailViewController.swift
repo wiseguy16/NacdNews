@@ -48,14 +48,10 @@ class VideoDetailViewController: UIViewController
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
         self.presentViewController(playerViewController, animated: true) {
-            // playerViewController.player!.seekToTime(inTime)
             
             playerViewController.player?.play()
             
         }
-        
-
-        
         
     }
 
@@ -64,7 +60,6 @@ class VideoDetailViewController: UIViewController
     {
         videoTitleLabel.text = aVideo.title
         videoDescriptionLabel.text = aVideo.media_description
-       // videoMiscLabel.text = aVideo.urltitle
         videoDetailImageView.image = UIImage(named: aVideo.media_image)
         
         let dateToShow = aVideo.entry_date
@@ -72,8 +67,6 @@ class VideoDetailViewController: UIViewController
         let formattedDateArray2 = formattedDateArray[2].componentsSeparatedByString("T")            //components(separatedBy: "T")
         let formattedDate = "\(formattedDateArray[1])/\(formattedDateArray2[0])/\(formattedDateArray[0])"
         videoMiscLabel.text = formattedDate
-    //    videoDetailImageView.image = UIImage(named: "\(aVideo.musicianImage).jpg")
-    //    detailFinePrintLabel.text = "Source: 'List of the highest grossing concert tours'. The list for the tour was obtained from Billboard and Pollstar with sales information from promoters and managers who organized the tours."
         
     }
 
