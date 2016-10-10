@@ -69,6 +69,7 @@
 		4A8E63671D860F9C006F3049 /* surfRider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63611D860F9C006F3049 /* surfRider.jpg */; };
 		4A8E63681D860F9C006F3049 /* usWithLights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63621D860F9C006F3049 /* usWithLights.jpg */; };
 		4A8E63691D860F9C006F3049 /* valleyWithSunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E63631D860F9C006F3049 /* valleyWithSunset.jpg */; };
+		4A8E636E1D872171006F3049 /* BG6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E636D1D872171006F3049 /* BG6.png */; };
 		4AA6753A1D76344000BD1325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA675391D76344000BD1325 /* AppDelegate.swift */; };
 		4AA6753C1D76344000BD1325 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6753B1D76344000BD1325 /* FirstViewController.swift */; };
 		4AA675411D76344000BD1325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6753F1D76344000BD1325 /* Main.storyboard */; };
@@ -157,6 +158,7 @@
 		4A8E63611D860F9C006F3049 /* surfRider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surfRider.jpg; sourceTree = "<group>"; };
 		4A8E63621D860F9C006F3049 /* usWithLights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usWithLights.jpg; sourceTree = "<group>"; };
 		4A8E63631D860F9C006F3049 /* valleyWithSunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valleyWithSunset.jpg; sourceTree = "<group>"; };
+		4A8E636D1D872171006F3049 /* BG6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG6.png; sourceTree = "<group>"; };
 		4AA675361D76344000BD1325 /* NacdNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacdNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA675391D76344000BD1325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA6753B1D76344000BD1325 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +197,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4244311DAC4A9600958CEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6753F1D76344000BD1325 /* Main.storyboard */,
+				4AA675441D76344000BD1325 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4A4244321DAC4AB500958CEB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4AA675391D76344000BD1325 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4A4244331DAC4ACA00958CEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6753B1D76344000BD1325 /* FirstViewController.swift */,
+				4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */,
+				4A10C7401D8321B5009BF9A6 /* FirstCollectionViewCell.swift */,
+				4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */,
+				4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */,
+				4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */,
+				4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */,
+				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
+				4AC7652A1D846D0B000F265F /* VideoDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		4A8E636A1D861599006F3049 /* PodcastAudio */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,8 +248,9 @@
 			children = (
 				4AC765621D84A563000F265F /* rocketSquare.png */,
 				4AC765601D84A150000F265F /* LogoMain.png */,
-				4AC7655E1D848AD9000F265F /* videoPlayIcon.png */,
+				4A8E636D1D872171006F3049 /* BG6.png */,
 				4AC765261D846121000F265F /* Bg5.png */,
+				4AC7655E1D848AD9000F265F /* videoPlayIcon.png */,
 			);
 			name = SystmIcons;
 			sourceTree = "<group>";
@@ -252,6 +288,52 @@
 			name = Photos;
 			sourceTree = "<group>";
 		};
+		4A8E636F1D8722E2006F3049 /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6755B1D763ED700BD1325 /* nacdVideos.json */,
+				4A10C7481D833460009BF9A6 /* podcasts.json */,
+				4A8E631C1D85BEDA006F3049 /* nacdBlog3.json */,
+			);
+			name = "JSON Files";
+			sourceTree = "<group>";
+		};
+		4A8E63701D87230E006F3049 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
+				4A10C74C1D833963009BF9A6 /* Podcast.swift */,
+				4AA6755F1D76F51F00BD1325 /* BlogItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4A8E63711D87232F006F3049 /* Fonts Used */ = {
+			isa = PBXGroup;
+			children = (
+				4A8E62F81D85008F006F3049 /* GothamHTF-Black.otf */,
+				4A8E62F91D85008F006F3049 /* GothamHTF-BlackItalic.otf */,
+				4A8E62FA1D85008F006F3049 /* GothamHTF-Bold.otf */,
+				4A8E62FB1D85008F006F3049 /* GothamHTF-BoldCondensed.otf */,
+				4A8E62FC1D85008F006F3049 /* GothamHTF-BoldItalic.otf */,
+				4AC7656F1D84FF2D000F265F /* GothamHTF-Book.otf */,
+				4A8E63021D8500AF006F3049 /* GothamHTF-BookCondensed.otf */,
+				4AC765711D84FF41000F265F /* GothamHTF-BookItalic.otf */,
+				4A8E63041D8500C6006F3049 /* GothamHTF-Light.otf */,
+				4A8E63051D8500C6006F3049 /* GothamHTF-LightCondensed.otf */,
+				4A8E63061D8500C6006F3049 /* GothamHTF-LightItalic.otf */,
+				4A8E63071D8500C6006F3049 /* GothamHTF-Medium.otf */,
+				4A8E63081D8500C6006F3049 /* GothamHTF-MediumCondensed.otf */,
+				4AC765731D84FF8D000F265F /* GothamHTF-Thin.otf */,
+				4A8E630E1D8500D7006F3049 /* GothamHTF-ThinItalic.otf */,
+				4A8E630F1D8500D7006F3049 /* GothamHTF-Ultra.otf */,
+				4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */,
+				4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */,
+				4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */,
+			);
+			name = "Fonts Used";
+			sourceTree = "<group>";
+		};
 		4AA6752D1D76344000BD1325 = {
 			isa = PBXGroup;
 			children = (
@@ -274,47 +356,16 @@
 		4AA675381D76344000BD1325 /* NacdNews */ = {
 			isa = PBXGroup;
 			children = (
-				4A8E62F81D85008F006F3049 /* GothamHTF-Black.otf */,
-				4A8E62F91D85008F006F3049 /* GothamHTF-BlackItalic.otf */,
-				4A8E62FA1D85008F006F3049 /* GothamHTF-Bold.otf */,
-				4A8E62FB1D85008F006F3049 /* GothamHTF-BoldCondensed.otf */,
-				4A8E62FC1D85008F006F3049 /* GothamHTF-BoldItalic.otf */,
-				4AC7656F1D84FF2D000F265F /* GothamHTF-Book.otf */,
-				4A8E63021D8500AF006F3049 /* GothamHTF-BookCondensed.otf */,
-				4AC765711D84FF41000F265F /* GothamHTF-BookItalic.otf */,
-				4A8E63041D8500C6006F3049 /* GothamHTF-Light.otf */,
-				4A8E63051D8500C6006F3049 /* GothamHTF-LightCondensed.otf */,
-				4A8E63061D8500C6006F3049 /* GothamHTF-LightItalic.otf */,
-				4A8E63071D8500C6006F3049 /* GothamHTF-Medium.otf */,
-				4A8E63081D8500C6006F3049 /* GothamHTF-MediumCondensed.otf */,
-				4AC765731D84FF8D000F265F /* GothamHTF-Thin.otf */,
-				4A8E630E1D8500D7006F3049 /* GothamHTF-ThinItalic.otf */,
-				4A8E630F1D8500D7006F3049 /* GothamHTF-Ultra.otf */,
-				4A8E63101D8500D7006F3049 /* GothamHTF-UltraItalic.otf */,
-				4A8E63111D8500D7006F3049 /* GothamHTF-XLight.otf */,
-				4A8E63121D8500D7006F3049 /* GothamHTF-XLightItalic.otf */,
 				4AC765081D839842000F265F /* Gotham */,
-				4AA675391D76344000BD1325 /* AppDelegate.swift */,
-				4AA6755B1D763ED700BD1325 /* nacdVideos.json */,
-				4A10C7481D833460009BF9A6 /* podcasts.json */,
-				4A8E631C1D85BEDA006F3049 /* nacdBlog3.json */,
-				4AA675591D7639BE00BD1325 /* MediaItem.swift */,
-				4A10C74C1D833963009BF9A6 /* Podcast.swift */,
-				4AA6755F1D76F51F00BD1325 /* BlogItem.swift */,
-				4AA6753B1D76344000BD1325 /* FirstViewController.swift */,
-				4AA6753F1D76344000BD1325 /* Main.storyboard */,
-				4AA675421D76344000BD1325 /* Assets.xcassets */,
-				4AA675441D76344000BD1325 /* LaunchScreen.storyboard */,
-				4AA675471D76344000BD1325 /* Info.plist */,
-				4A10C73A1D832010009BF9A6 /* SecondCollectionViewController.swift */,
-				4AB156121D778F25004601E7 /* BlogDetailViewController.swift */,
-				4A10C73C1D83202A009BF9A6 /* FirstCollectionViewController.swift */,
-				4AC7652A1D846D0B000F265F /* VideoDetailViewController.swift */,
-				4A10C73E1D832042009BF9A6 /* ThirdCollectionViewController.swift */,
-				4A10C7401D8321B5009BF9A6 /* FirstCollectionViewCell.swift */,
-				4A10C7421D8321D1009BF9A6 /* SecondCollectionViewCell.swift */,
-				4A10C7441D8321E3009BF9A6 /* ThirdCollectionViewCell.swift */,
+				4A8E63711D87232F006F3049 /* Fonts Used */,
+				4A8E636F1D8722E2006F3049 /* JSON Files */,
 				4AC7656E1D84EE44000F265F /* Icons */,
+				4A4244321DAC4AB500958CEB /* AppDelegate */,
+				4A8E63701D87230E006F3049 /* Models */,
+				4A4244311DAC4A9600958CEB /* Views */,
+				4A4244331DAC4ACA00958CEB /* Controllers */,
+				4AA675421D76344000BD1325 /* Assets.xcassets */,
+				4AA675471D76344000BD1325 /* Info.plist */,
 			);
 			path = NacdNews;
 			sourceTree = "<group>";
@@ -404,6 +455,7 @@
 				4A8E63391D860404006F3049 /* podcast1.mp3 in Resources */,
 				4A8E63361D860404006F3049 /* podcast4.mp3 in Resources */,
 				4A8E635C1D860F76006F3049 /* highwayIntoForest.jpg in Resources */,
+				4A8E636E1D872171006F3049 /* BG6.png in Resources */,
 				4AA675461D76344000BD1325 /* LaunchScreen.storyboard in Resources */,
 				4A8E62FE1D85008F006F3049 /* GothamHTF-BlackItalic.otf in Resources */,
 				4A8E63141D8500D7006F3049 /* GothamHTF-Ultra.otf in Resources */,
@@ -604,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NacdNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gerusa04.NacdNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,6 +668,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NacdNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gerusa04.NacdNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";

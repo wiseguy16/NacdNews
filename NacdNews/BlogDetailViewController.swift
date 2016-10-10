@@ -26,9 +26,6 @@ class BlogDetailViewController: UIViewController {
     @IBOutlet weak var bioLabel: UILabel!
     
     
-
-  //  @IBOutlet weak var awesomeWebView: UIWebView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         shareBody = aBlogItem.body
@@ -58,16 +55,6 @@ class BlogDetailViewController: UIViewController {
         
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     
     func configureView()
     {
